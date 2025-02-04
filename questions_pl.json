@@ -413,10 +413,10 @@
     "number": 42,
     "text": "Jakie atomy definiują kąt omega w łańcuchu polipeptydowym?",
     "answers": [
-      { "text": "N–Cα–CO–N", "correctness": "correct" },
+      { "text": "N–Cα–CO–N", "correctness": "incorrect" },
       { "text": "CO–N–Cα–Cb", "correctness": "incorrect" },
       { "text": "CO–N–Cα–CO", "correctness": "incorrect" },
-      { "text": "Ca–CO–N–Ca", "correctness": "incorrect" }
+      { "text": "Ca–CO–N–Ca", "correctness": "correct" }
     ]
   },
   {
