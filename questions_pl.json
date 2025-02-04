@@ -833,9 +833,9 @@
     "number": 84,
     "text": "Która z poniższych klas kryształów nie jest możliwa dla kryształów białkowych?",
     "answers": [
-      { "text": "2/m", "correctness": "incorrect" },
+      { "text": "2/m", "correctness": "correct" },
       { "text": "32", "correctness": "incorrect" },
-      { "text": "23", "correctness": "correct" },
+      { "text": "23", "correctness": "incorrect" },
       { "text": "1", "correctness": "incorrect" }
     ]
   },
