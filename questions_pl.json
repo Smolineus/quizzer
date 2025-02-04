@@ -448,6 +448,1700 @@
       { "text": "tylko helisy α", "correctness": "incorrect" },
       { "text": "tylko arkusze β", "correctness": "incorrect" }
     ]
+  },
+  {
+    "number": 46,
+    "text": "Która z wymienionych grup przestrzennych ma ustalony początek układu i nie ma pozycji specjalnych?",
+    "answers": [
+      { "text": "P2(1)", "correctness": "incorrect" },
+      { "text": "P2", "correctness": "correct" },
+      { "text": "P2(1)2(1)2", "correctness": "incorrect" },
+      { "text": "P2(1)2(1)2(1)", "correctness": "incorrect" }
+    ]
+  },
+  {
+    "number": 47,
+    "text": "Do którego układu krystalograficznego należy klasa 3?",
+    "answers": [
+      { "text": "trójskośny", "correctness": "incorrect" },
+      { "text": "rombowy", "correctness": "incorrect" },
+      { "text": "trygonalny", "correctness": "correct" },
+      { "text": "regularny (sześcienny)", "correctness": "incorrect" }
+    ]
+  },
+  {
+    "number": 48,
+    "text": "W większości form nukleinowych wiązania glikozydowe są w konformacji anti. W jakich nukleotydach zaobserwowano formę syn?",
+    "answers": [
+      { "text": "puryna-ryboza", "correctness": "incorrect" },
+      { "text": "puryna-deoksyryboza", "correctness": "correct" },
+      { "text": "pirymidyna-ryboza", "correctness": "incorrect" },
+      { "text": "pirymidyna-deoksyryboza", "correctness": "incorrect" }
+    ]
+  },
+  {
+    "number": 49,
+    "text": "Jaka jest konformacja pierścienia 2'-deoksyrybozy w Z-DNA?",
+    "answers": [
+      { "text": "C2'-endo", "correctness": "incorrect" },
+      { "text": "C3'-endo", "correctness": "incorrect" },
+      { "text": "pirymidyny: C3'-endo, puryny: C2'-endo", "correctness": "incorrect" },
+      { "text": "pirymidyny: C2'-endo, puryny: C3'-endo", "correctness": "correct" }
+    ]
+  },
+  {
+    "number": 50,
+    "text": "Który wektor sieci prostej jest prostopadły do wektorów b* i c* sieci odwrotnej?",
+    "answers": [
+      { "text": "a", "correctness": "correct" },
+      { "text": "b", "correctness": "incorrect" },
+      { "text": "c", "correctness": "incorrect" },
+      { "text": "żaden", "correctness": "incorrect" }
+    ]
+  },
+  {
+    "number": 51,
+    "text": "Jaki element symetrii i w jakim położeniu odpowiada transformacji (x, y, z) → (–x, –y, z)?",
+    "answers": [
+      { "text": "to niedozwolona operacja", "correctness": "incorrect" },
+      { "text": "dwukrotna oś symetrii (oś 2) wzdłuż osi z", "correctness": "correct" },
+      { "text": "płaszczyzna lustrzana (m) prostopadła do x", "correctness": "incorrect" },
+      { "text": "płaszczyzna lustrzana (m) prostopadła do y", "correctness": "incorrect" }
+    ]
+  },
+  {
+    "number": 52,
+    "text": "Wybierz najmniejszy aminokwas:",
+    "answers": [
+      { "text": "glicyna", "correctness": "correct" },
+      { "text": "alanina", "correctness": "incorrect" },
+      { "text": "walina", "correctness": "incorrect" },
+      { "text": "prolina", "correctness": "incorrect" }
+    ]
+  },
+  {
+    "number": 53,
+    "text": "Z ilu różnych aminokwasów zbudowane są białka?",
+    "answers": [
+      { "text": "4", "correctness": "incorrect" },
+      { "text": "16", "correctness": "incorrect" },
+      { "text": "20", "correctness": "correct" },
+      { "text": "252", "correctness": "incorrect" }
+    ]
+  },
+  {
+    "number": 54,
+    "text": "Jakie współrzędne są generowane z (x, y, z) przez oś dwukrotną wzdłuż y?",
+    "answers": [
+      { "text": "(-x, -y, -z)", "correctness": "incorrect" },
+      { "text": "(-x, y, -z)", "correctness": "correct" },
+      { "text": "(x, -y, z)", "correctness": "incorrect" },
+      { "text": "(y, x, z)", "correctness": "incorrect" }
+    ]
+  },
+  {
+    "number": 55,
+    "text": "Cztery łańcuchy peptydowe 1,2,3,4 są połączone wiązaniami wodorowymi w sekwencji 4 – 1 – 2 – 3. Jaki to motyw?",
+    "answers": [
+      { "text": "Beta hairpin", "correctness": "incorrect" },
+      { "text": "Greek key", "correctness": "correct" },
+      { "text": "Jelly-roll fold", "correctness": "incorrect" },
+      { "text": "Taki układ jest niemożliwy", "correctness": "incorrect" }
+    ]
+  },
+  {
+    "number": 56,
+    "text": "Jakie centrowanie ma sieć, której węzły to: (0,0,0); (1/2,1/2,0); (1/2,0,1/2); (0,1/2,1/2)?",
+    "answers": [
+      { "text": "P", "correctness": "incorrect" },
+      { "text": "I", "correctness": "incorrect" },
+      { "text": "F", "correctness": "correct" },
+      { "text": "C", "correctness": "incorrect" }
+    ]
+  },
+  {
+    "number": 57,
+    "text": "W którym obszarze wykresu Ramachandrana znajduje się rejon helisy alfa?",
+    "answers": [
+      { "text": "lewa górna ćwiartka", "correctness": "incorrect" },
+      { "text": "prawa górna ćwiartka", "correctness": "incorrect" },
+      { "text": "prawa dolna ćwiartka", "correctness": "incorrect" },
+      { "text": "lewa dolna ćwiartka", "correctness": "correct" }
+    ]
+  },
+  {
+    "number": 58,
+    "text": "W metodzie kropli wiszącej (hanging-drop) kryształy białka powstają:",
+    "answers": [
+      { "text": "w samej kropli", "correctness": "correct" },
+      { "text": "na szkiełku nakrywkowym, obok kropli", "correctness": "incorrect" },
+      { "text": "w zbiorniczku (reservoir)", "correctness": "incorrect" },
+      { "text": "w przestrzeni między zbiorniczkiem a kroplą", "correctness": "incorrect" }
+    ]
+  },
+  {
+    "number": 59,
+    "text": "Co faktycznie przedstawia wykres Ramachandrana?",
+    "answers": [
+      { "text": "zależność energii od kątów phi i psi", "correctness": "incorrect" },
+      { "text": "zależność kątów phi i psi od struktury drugorzędowej", "correctness": "incorrect" },
+      { "text": "energii konformacyjnej jako funkcji kątów phi i psi", "correctness": "incorrect" },
+      { "text": "relację między kątami phi i psi", "correctness": "correct" }
+    ]
+  },
+  {
+    "number": 60,
+    "text": "Czy naturalne białka mogą krystalizować w klasie kryształów -4?",
+    "answers": [
+      { "text": "Nigdy", "correctness": "correct" },
+      { "text": "Tak, to popularna klasa", "correctness": "incorrect" },
+      { "text": "Tak, ale tylko w bardzo rzadkich przypadkach", "correctness": "incorrect" },
+      { "text": "Tak, ale tylko gdy kryształy są zbliźniaczone", "correctness": "incorrect" }
+    ]
+  },
+  {
+    "number": 61,
+    "text": "Układ prostych motywów w trójwymiarowej strukturze białka to:",
+    "answers": [
+      { "text": "struktura pierwszorzędowa", "correctness": "incorrect" },
+      { "text": "struktura drugorzędowa", "correctness": "incorrect" },
+      { "text": "struktura trzeciorzędowa", "correctness": "correct" },
+      { "text": "struktura czwartorzędowa", "correctness": "incorrect" }
+    ]
+  },
+  {
+    "number": 62,
+    "text": "Chromofor HBI w GFP powstaje:",
+    "answers": [
+      { "text": "przez reakcję białka z metabolitami redoks", "correctness": "incorrect" },
+      { "text": "przez enzymatyczną modyfikację białka", "correctness": "incorrect" },
+      { "text": "w wyniku reakcji określonych łańcuchów bocznych", "correctness": "correct" },
+      { "text": "przez reakcję głównego łańcucha peptydowego", "correctness": "incorrect" }
+    ]
+  },
+  {
+    "number": 63,
+    "text": "Która z poniższych metod nie służy do rozwiązania problemu fazowego?",
+    "answers": [
+      { "text": "Metoda podstawienia izomorficznego (Perutza)", "correctness": "incorrect" },
+      { "text": "Metoda podstawienia cząsteczkowego (Rossmanna)", "correctness": "incorrect" },
+      { "text": "Metoda MAD (Hendricksona)", "correctness": "incorrect" },
+      { "text": "Metoda macierzy rozproszonej", "correctness": "correct" }
+    ]
+  },
+  {
+    "number": 64,
+    "text": "Która z poniższych osi śrubowych jest lewoskrętna?",
+    "answers": [
+      { "text": "2(1)", "correctness": "incorrect" },
+      { "text": "3(2)", "correctness": "incorrect" },
+      { "text": "4(2)", "correctness": "correct" },
+      { "text": "6(2)", "correctness": "incorrect" }
+    ]
+  },
+  {
+    "number": 65,
+    "text": "Ile podjednostek ma rybosom (E. coli)?",
+    "answers": [
+      { "text": "2", "correctness": "correct" },
+      { "text": "3", "correctness": "incorrect" },
+      { "text": "4", "correctness": "incorrect" },
+      { "text": "6", "correctness": "incorrect" }
+    ]
+  },
+  {
+    "number": 66,
+    "text": "Co się dzieje podczas krystalizacji metodą kropli wiszącej przy użyciu siarczanu amonu?",
+    "answers": [
+      { "text": "kropla zmniejsza objętość", "correctness": "correct" },
+      { "text": "objętość kropli rośnie", "correctness": "incorrect" },
+      { "text": "objętość kropli się nie zmienia", "correctness": "incorrect" },
+      { "text": "może rosnąć lub maleć", "correctness": "incorrect" }
+    ]
+  },
+  {
+    "number": 67,
+    "text": "Jaką formę podwójno-helikalnego RNA przyjmuje?",
+    "answers": [
+      { "text": "A-RNA", "correctness": "correct" },
+      { "text": "B-RNA", "correctness": "incorrect" },
+      { "text": "Z-RNA", "correctness": "incorrect" },
+      { "text": "RNA nigdy nie tworzy struktury dwuniciowej", "correctness": "incorrect" }
+    ]
+  },
+  {
+    "number": 68,
+    "text": "Ile układów krystalograficznych brakuje na liście: jednoskośny, rombowy, tetragonalny, trygonalny, heksagonalny?",
+    "answers": [
+      { "text": "żadnego", "correctness": "incorrect" },
+      { "text": "1", "correctness": "incorrect" },
+      { "text": "2", "correctness": "correct" },
+      { "text": "7", "correctness": "incorrect" }
+    ]
+  },
+  {
+    "number": 69,
+    "text": "Diagram Arganda służy do ilustrowania:",
+    "answers": [
+      { "text": "konstrukcji Ewalda", "correctness": "incorrect" },
+      { "text": "konstrukcji Lauego", "correctness": "incorrect" },
+      { "text": "struktury czynnika w postaci liczby zespolonej", "correctness": "correct" },
+      { "text": "metody podstawienia izomorficznego", "correctness": "incorrect" }
+    ]
+  },
+  {
+    "number": 70,
+    "text": "Kąty walencyjne wokół atomu C(sp³) wynoszą (w °):",
+    "answers": [
+      { "text": "60", "correctness": "incorrect" },
+      { "text": "90", "correctness": "incorrect" },
+      { "text": "109.5", "correctness": "correct" },
+      { "text": "120", "correctness": "incorrect" }
+    ]
+  },
+  {
+    "number": 71,
+    "text": "Które stwierdzenie o dyfrakcji promieni X na kryształach jest fałszywe?",
+    "answers": [
+      { "text": "Informacja o strukturze jest zakodowana w intensywnościach refleksów", "correctness": "correct" },
+      { "text": "Promienie X rozpraszają się na elektronach", "correctness": "correct" },
+      { "text": "Liczba refleksów jest proporcjonalna do objętości komórki", "correctness": "correct" },
+      { "text": "Liczba refleksów jest odwrotnie proporcjonalna do rozmiaru kryształu", "correctness": "incorrect" }
+    ]
+  },
+  {
+    "number": 72,
+    "text": "Znajdź fałszywe stwierdzenie o małych białkach (do 100 aminokwasów):",
+    "answers": [
+      { "text": "ich struktura często jest stabilizowana mostkami dwusiarczkowymi", "correctness": "incorrect" },
+      { "text": "często są stabilizowane przez jony metali", "correctness": "incorrect" },
+      { "text": "mogą istnieć tylko w formie oligomerów", "correctness": "correct" },
+      { "text": "zwykle nie tworzą stabilnego jądra hydrofobowego", "correctness": "incorrect" }
+    ]
+  },
+  {
+    "number": 73,
+    "text": "Łańcuch główny białka składa się z powtarzających się jednostek złożonych z:",
+    "answers": [
+      { "text": "2 atomów niewodoru", "correctness": "incorrect" },
+      { "text": "4 atomów niewodoru", "correctness": "incorrect" },
+      { "text": "5 atomów niewodoru", "correctness": "correct" },
+      { "text": "różnej liczby atomów w każdej jednostce", "correctness": "incorrect" }
+    ]
+  },
+  {
+    "number": 74,
+    "text": "Cukry: C2'-endo, wiązania glikozydowe: anti, łańcuchy boczne: gauche-gauche. Jaka forma DNA to jest?",
+    "answers": [
+      { "text": "A-DNA", "correctness": "incorrect" },
+      { "text": "B-DNA", "correctness": "correct" },
+      { "text": "Z-DNA", "correctness": "incorrect" },
+      { "text": "Taka forma nie istnieje", "correctness": "incorrect" }
+    ]
+  },
+  {
+    "number": 75,
+    "text": "Jaka jest relacja orientacji polaryzacji promieni O (zwyczajny) i E (nadzwyczajny) w kryształach dwójłomnych?",
+    "answers": [
+      { "text": "równoległa", "correctness": "incorrect" },
+      { "text": "prostopadła", "correctness": "correct" },
+      { "text": "może być dowolna", "correctness": "incorrect" },
+      { "text": "co najmniej jeden nie jest spolaryzowany", "correctness": "incorrect" }
+    ]
+  },
+  {
+    "number": 76,
+    "text": "Promieniowanie o jednej długości fali nazywamy:",
+    "answers": [
+      { "text": "monochromatyczne", "correctness": "correct" },
+      { "text": "polichromatyczne", "correctness": "incorrect" },
+      { "text": "spolaryzowane", "correctness": "incorrect" },
+      { "text": "koherentne", "correctness": "incorrect" }
+    ]
+  },
+  {
+    "number": 77,
+    "text": "Przy stałej trwałości kompleksu białko–metal = 10^6, użycie roztworu soli o stężeniu 1 mM pozwala spodziewać się:",
+    "answers": [
+      { "text": "praktycznie brak związania", "correctness": "incorrect" },
+      { "text": "około 10%", "correctness": "incorrect" },
+      { "text": "około 50%", "correctness": "incorrect" },
+      { "text": "niemal 100%", "correctness": "correct" }
+    ]
+  },
+  {
+    "number": 78,
+    "text": "Wśród form DNA, konformacja łańcuchów bocznych gauche-trans jest możliwa w:",
+    "answers": [
+      { "text": "A-DNA", "correctness": "incorrect" },
+      { "text": "B-DNA", "correctness": "incorrect" },
+      { "text": "Z-DNA", "correctness": "correct" },
+      { "text": "konformacja gauche-trans nie jest możliwa", "correctness": "incorrect" }
+    ]
+  },
+  {
+    "number": 79,
+    "text": "Pierwsza trójwymiarowa struktura białka została rozwiązana dla:",
+    "answers": [
+      { "text": "Hemoglobiny", "correctness": "incorrect" },
+      { "text": "Mioglobiny", "correctness": "correct" },
+      { "text": "Pepsyny", "correctness": "incorrect" },
+      { "text": "Insuliny", "correctness": "incorrect" }
+    ]
+  },
+  {
+    "number": 80,
+    "text": "Który z poniższych symboli grupy przestrzennej jest niepoprawny?",
+    "answers": [
+      { "text": "Pacb", "correctness": "correct" },
+      { "text": "P2(1)/c", "correctness": "incorrect" },
+      { "text": "P32", "correctness": "incorrect" },
+      { "text": "Aba2", "correctness": "incorrect" }
+    ]
+  },
+  {
+    "number": 81,
+    "text": "Który promień (E czy O) w kryształach jednoosiowych jest spolaryzowany w płaszczyźnie propagacji i osi optycznej?",
+    "answers": [
+      { "text": "E", "correctness": "correct" },
+      { "text": "O", "correctness": "incorrect" },
+      { "text": "żaden", "correctness": "incorrect" },
+      { "text": "oba", "correctness": "incorrect" }
+    ]
+  },
+  {
+    "number": 82,
+    "text": "Cis wiązania peptydowe najczęściej występują między:",
+    "answers": [
+      { "text": "Prolina – dowolny", "correctness": "incorrect" },
+      { "text": "Dowolny – prolina", "correctness": "correct" },
+      { "text": "Dowolny – dowolny", "correctness": "incorrect" },
+      { "text": "Peptydy nigdy nie występują w formie cis", "correctness": "incorrect" }
+    ]
+  },
+  {
+    "number": 83,
+    "text": "Jaka jest długość fali charakterystycznego promieniowania Cu Kα?",
+    "answers": [
+      { "text": "0.15 Å", "correctness": "incorrect" },
+      { "text": "0.7 Å", "correctness": "incorrect" },
+      { "text": "1.5 Å", "correctness": "correct" },
+      { "text": "15 Å", "correctness": "incorrect" }
+    ]
+  },
+  {
+    "number": 84,
+    "text": "Która z poniższych klas kryształów nie jest możliwa dla kryształów białkowych?",
+    "answers": [
+      { "text": "2/m", "correctness": "incorrect" },
+      { "text": "32", "correctness": "incorrect" },
+      { "text": "23", "correctness": "correct" },
+      { "text": "1", "correctness": "incorrect" }
+    ]
+  },
+  {
+    "number": 85,
+    "text": "Liczba 3.6 w symbolu 3.6(13) helisy α oznacza:",
+    "answers": [
+      { "text": "liczbę atomów łańcucha głównego tworzących jeden zwój helikalny", "correctness": "incorrect" },
+      { "text": "skok helisy (w Å)", "correctness": "incorrect" },
+      { "text": "liczbę aminokwasów przypadających na jeden zwój helisy", "correctness": "correct" },
+      { "text": "długość wiązania wodorowego N-H...O=C (w Å)", "correctness": "incorrect" }
+    ]
+  },
+  {
+    "number": 86,
+    "text": "Do którego układu krystalograficznego należy grupa przestrzenna P6(4)22?",
+    "answers": [
+      { "text": "6", "correctness": "incorrect" },
+      { "text": "6/m mm", "correctness": "incorrect" },
+      { "text": "622", "correctness": "correct" },
+      { "text": "422", "correctness": "incorrect" }
+    ]
+  },
+  {
+    "number": 87,
+    "text": "Która z wymienionych grup przestrzennych nadaje się do krystalizacji białek?",
+    "answers": [
+      { "text": "P2(1)/c", "correctness": "incorrect" },
+      { "text": "C222(1)", "correctness": "incorrect" },
+      { "text": "Pmm2", "correctness": "correct" },
+      { "text": "I-4", "correctness": "incorrect" }
+    ]
+  },
+  {
+    "number": 88,
+    "text": "Zawartość rozpuszczalnika (objętościowo) w kryształach białkowych wynosi zazwyczaj:",
+    "answers": [
+      { "text": "poniżej 30%", "correctness": "incorrect" },
+      { "text": "30–80%", "correctness": "correct" },
+      { "text": "powyżej 80%", "correctness": "incorrect" },
+      { "text": "brak rozpuszczalnika", "correctness": "incorrect" }
+    ]
+  },
+  {
+    "number": 89,
+    "text": "Znajdź stwierdzenie, które NIE charakteryzuje motywu palca cynkowego:",
+    "answers": [
+      { "text": "jest to motyw wiążący DNA", "correctness": "incorrect" },
+      { "text": "składa się z N-terminalnej wsuwki i C-terminalnej helisy α", "correctness": "incorrect" },
+      { "text": "składa się z dwóch helis α połączonych pętlą, przypominającą palec wskazujący i kciuk", "correctness": "correct" },
+      { "text": "jon cynku jest zwykle koordynowany przez dwie histydyny i dwie cysteiny", "correctness": "incorrect" }
+    ]
+  },
+  {
+    "number": 90,
+    "text": "W symbolu 3.6(13) helisy α, indeks 13 oznacza:",
+    "answers": [
+      { "text": "liczbę atomów łańcucha głównego tworzących jeden zwój helikalny", "correctness": "incorrect" },
+      { "text": "liczbę atomów w pierścieniu domkniętym przez wiązanie wodorowe, bez atomu H", "correctness": "incorrect" },
+      { "text": "liczbę atomów w pierścieniu domkniętym przez wiązanie wodorowe łącznie z atomem H", "correctness": "correct" },
+      { "text": "skok helisy (w Å) między zwójmi", "correctness": "incorrect" }
+    ]
+  },
+  {
+    "number": 91,
+    "text": "Do którego układu krystalograficznego należy klasa m?",
+    "answers": [
+      { "text": "trójskośny", "correctness": "incorrect" },
+      { "text": "jednoskośny (monoklinowy)", "correctness": "correct" },
+      { "text": "rombowy (ortorombowy)", "correctness": "incorrect" },
+      { "text": "regularny (sześcienny)", "correctness": "incorrect" }
+    ]
+  },
+  {
+    "number": 92,
+    "text": "Kryształy sześcienne, materiały amorficzne i gazy są zawsze:",
+    "answers": [
+      { "text": "optycznie izotropowe", "correctness": "correct" },
+      { "text": "optycznie anizotropowe", "correctness": "incorrect" },
+      { "text": "optycznie czynne", "correctness": "incorrect" },
+      { "text": "optycznie nieczynne", "correctness": "incorrect" }
+    ]
+  },
+  {
+    "number": 93,
+    "text": "Reguła 'CORN' dotyczy:",
+    "answers": [
+      { "text": "struktury białek wyizolowanych z kukurydzy", "correctness": "incorrect" },
+      { "text": "konfiguracji absolutnej aminokwasów", "correctness": "correct" },
+      { "text": "kierunkowości łańcucha peptydowego", "correctness": "incorrect" },
+      { "text": "izomerii wiązania peptydowego", "correctness": "incorrect" }
+    ]
+  },
+  {
+    "number": 94,
+    "text": "W metodzie MAD Hendricksona należy:",
+    "answers": [
+      { "text": "zmierzyć dane wielokrotnie przy tej samej długości fali dla tego samego kryształu", "correctness": "incorrect" },
+      { "text": "zmierzyć dane przy tej samej długości fali dla wielu kryształów", "correctness": "incorrect" },
+      { "text": "zmierzyć dane przy różnych długościach fali dla różnych pochodnych", "correctness": "incorrect" },
+      { "text": "zmierzyć dane dla jednej pochodnej przy kilku dobranych długościach fali", "correctness": "correct" }
+    ]
+  },
+  {
+    "number": 95,
+    "text": "Tylko w jednym z zestawów wymieniono wszystkie pięć możliwych płaszczyzn poślizgu (m, a, b, c, n) jako normalne do osi z. Który to zestaw?",
+    "answers": [
+      { "text": "m, a, b, n, d", "correctness": "incorrect" },
+      { "text": "a, b, c, n, d", "correctness": "incorrect" },
+      { "text": "m, a, b, c, d", "correctness": "incorrect" },
+      { "text": "m, a, b, c, n", "correctness": "correct" }
+    ]
+  },
+  {
+    "number": 96,
+    "text": "Łańcuch beta ma kąty phi i psi około (°):",
+    "answers": [
+      { "text": "-60, -60", "correctness": "incorrect" },
+      { "text": "-60, 60", "correctness": "incorrect" },
+      { "text": "120, -120", "correctness": "incorrect" },
+      { "text": "-120, 120", "correctness": "correct" }
+    ]
+  },
+  {
+    "number": 97,
+    "text": "Kryształy którego z układów nie są jednoosiowe?",
+    "answers": [
+      { "text": "tetragonalne", "correctness": "incorrect" },
+      { "text": "trygonalne", "correctness": "incorrect" },
+      { "text": "heksagonalne", "correctness": "incorrect" },
+      { "text": "regularne (sześcienne)", "correctness": "correct" }
+    ]
+  },
+  {
+    "number": 98,
+    "text": "Wykres Ramachandrana przedstawia:",
+    "answers": [
+      { "text": "zależność kąta phi od kąta psi", "correctness": "correct" },
+      { "text": "zależność energii od kątów phi i psi", "correctness": "incorrect" },
+      { "text": "zależność kątów phi i psi od energii", "correctness": "incorrect" },
+      { "text": "zależność kątów phi i psi od struktury drugorzędowej", "correctness": "incorrect" }
+    ]
+  },
+  {
+    "number": 99,
+    "text": "Krystalizacja białka wymaga:",
+    "answers": [
+      { "text": "powstania zarodków w regionie labile i ich wzrostu w regionie metastabilnym", "correctness": "correct" },
+      { "text": "powstania zarodków w regionie metastabilnym i wzrostu w regionie labile", "correctness": "incorrect" },
+      { "text": "powstania zarodków w regionie nienasyconym i wzrostu w regionze przesyconym", "correctness": "incorrect" },
+      { "text": "powstania zarodków w regionze przesyconym i wzrostu w regionze nienasyconym", "correctness": "incorrect" }
+    ]
+  },
+  {
+    "number": 100,
+    "text": "Płytka obrazowa (image plate) działa na zasadzie:",
+    "answers": [
+      { "text": "jonizacji gazu", "correctness": "incorrect" },
+      { "text": "efektu półprzewodnikowego", "correctness": "incorrect" },
+      { "text": "fotostymulowanej luminescencji", "correctness": "correct" },
+      { "text": "kamery wideo", "correctness": "incorrect" }
+    ]
+  },
+  {
+    "number": 101,
+    "text": "Znajdź prawdziwe stwierdzenie:",
+    "answers": [
+      { "text": "rdzeń globularnych białek powstaje przez interakcje głównego łańcucha z łańcuchami bocznymi", "correctness": "incorrect" },
+      { "text": "rdzeń globularnych białek powstaje dzięki hydrofobowym łańcuchom bocznym", "correctness": "correct" },
+      { "text": "rdzeń białek globularnych tworzą łańcuchy boczne hydrofilowe", "correctness": "incorrect" },
+      { "text": "w rdzeniu łańcucha głównego nie tworzy się wiązań wodorowych", "correctness": "incorrect" }
+    ]
+  },
+  {
+    "number": 102,
+    "text": "Jeśli białko wykrystalizowało w grupie przestrzennej bez osi śrubowych, to na podstawie obrazu dyfrakcyjnego:",
+    "answers": [
+      { "text": "grupę można zawsze jednoznacznie wyznaczyć", "correctness": "correct" },
+      { "text": "grupy tej nie można wyznaczyć jednoznacznie", "correctness": "incorrect" },
+      { "text": "niektóre takie grupy można, a niektórych nie", "correctness": "incorrect" },
+      { "text": "opisana sytuacja nie jest możliwa", "correctness": "incorrect" }
+    ]
+  },
+  {
+    "number": 103,
+    "text": "Co to jest pozytywny efekt soli?",
+    "answers": [
+      { "text": "wytrącanie białka w wyniku oddziaływania z jonami soli", "correctness": "incorrect" },
+      { "text": "wytrącanie soli z roztworu macierzystego", "correctness": "incorrect" },
+      { "text": "wytrącanie białka spowodowane odwodnieniem przez jony soli", "correctness": "correct" },
+      { "text": "wytrącanie białka z powodu przyciągania ładunków", "correctness": "incorrect" }
+    ]
+  },
+  {
+    "number": 104,
+    "text": "W ilu kierunkach światło w kryształach rombowych, jednoskośnych i trójskośnych nie dzieli się na dwa promienie?",
+    "answers": [
+      { "text": "nie ma takiego kierunku", "correctness": "correct" },
+      { "text": "1", "correctness": "incorrect" },
+      { "text": "2", "correctness": "incorrect" },
+      { "text": "w dowolnym kierunku", "correctness": "incorrect" }
+    ]
+  },
+  {
+    "number": 105,
+    "text": "Jakie atomy definiują kąt ψ (psi) w łańcuchu polipeptydowym?",
+    "answers": [
+      { "text": "N–Cα–CO–N", "correctness": "correct" },
+      { "text": "Cα–N–CO–Cα", "correctness": "incorrect" },
+      { "text": "CO–N–Cα–CO", "correctness": "incorrect" },
+      { "text": "CO–N–Cα–Cβ", "correctness": "incorrect" }
+    ]
+  },
+  {
+    "number": 106,
+    "text": "Czym jest aminoacylo-tRNA syntetaza?",
+    "answers": [
+      { "text": "enzymatyczną cząsteczką tRNA katalizującą syntezę aminokwasu", "correctness": "incorrect" },
+      { "text": "enzymem syntetyzującym tRNA", "correctness": "incorrect" },
+      { "text": "enzymem przyłączającym aminokwas do końca 5' tRNA", "correctness": "incorrect" },
+      { "text": "enzymem przyłączającym aminokwas do końca 3' tRNA", "correctness": "correct" }
+    ]
+  },
+  {
+    "number": 107,
+    "text": "Ile osi optycznych mają kryształy rombowe, jednoskośne i trójskośne?",
+    "answers": [
+      { "text": "żadnej", "correctness": "incorrect" },
+      { "text": "1", "correctness": "correct" },
+      { "text": "2", "correctness": "incorrect" },
+      { "text": "nieskończenie wiele", "correctness": "incorrect" }
+    ]
+  },
+  {
+    "number": 108,
+    "text": "Jakie atomy definiują kąt φ (phi) w łańcuchu polipeptydowym?",
+    "answers": [
+      { "text": "N–Cα–CO–N", "correctness": "incorrect" },
+      { "text": "Cα–N–CO–Cα", "correctness": "incorrect" },
+      { "text": "CO–N–Cα–CO", "correctness": "correct" },
+      { "text": "CO–N–Cα–Cβ", "correctness": "incorrect" }
+    ]
+  },
+  {
+    "number": 109,
+    "text": "Znajdź zdanie prawdziwe:",
+    "answers": [
+      { "text": "histydyna jest dobrym ligandem dla metali, ale tylko w niskim pH", "correctness": "incorrect" },
+      { "text": "histydyna jest dobrym ligandem dla metali, ale tylko w wysokim pH", "correctness": "incorrect" },
+      { "text": "histydyna jest dobrym ligandem dla metali w każdym pH", "correctness": "correct" },
+      { "text": "histydyna nigdy nie koordynuje metali", "correctness": "incorrect" }
+    ]
+  },
+  {
+    "number": 110,
+    "text": "Które z poniższych stwierdzeń jest prawdziwe?",
+    "answers": [
+      { "text": "four-helix bundle to przykład globin fold", "correctness": "incorrect" },
+      { "text": "four-helix bundle jest częścią globin fold", "correctness": "incorrect" },
+      { "text": "helisy w four-helix bundle są równoległe", "correctness": "incorrect" },
+      { "text": "helisy w four-helix bundle są antyrównoległe", "correctness": "correct" }
+    ]
+  },
+  {
+    "number": 111,
+    "text": "Która z poniższych grup punktowych zawiera oś dwukrotną?",
+    "answers": [
+      { "text": "1", "correctness": "incorrect" },
+      { "text": "−1", "correctness": "incorrect" },
+      { "text": "mmm", "correctness": "correct" },
+      { "text": "3", "correctness": "incorrect" }
+    ]
+  },
+  {
+    "number": 112,
+    "text": "Do którego układu krystalograficznego należy klasa 222?",
+    "answers": [
+      { "text": "jednoskośny", "correctness": "incorrect" },
+      { "text": "rombowy", "correctness": "correct" },
+      { "text": "trygonalny", "correctness": "incorrect" },
+      { "text": "regularny", "correctness": "incorrect" }
+    ]
+  },
+  {
+    "number": 113,
+    "text": "Kryształy są zazwyczaj optycznie anizotropowe. Wyjątek stanowią kryształy o jakiej symetrii?",
+    "answers": [
+      { "text": "trójskośnej", "correctness": "incorrect" },
+      { "text": "tetragonalnej", "correctness": "incorrect" },
+      { "text": "heksagonalnej", "correctness": "incorrect" },
+      { "text": "regularnej (sześciennej)", "correctness": "correct" }
+    ]
+  },
+  {
+    "number": 114,
+    "text": "Stała dielektryczna roztworu woda–rozpuszczalnik organiczny w porównaniu do wody jest:",
+    "answers": [
+      { "text": "niższa", "correctness": "correct" },
+      { "text": "wyższa", "correctness": "incorrect" },
+      { "text": "taka sama", "correctness": "incorrect" },
+      { "text": "może być niższa lub wyższa", "correctness": "incorrect" }
+    ]
+  },
+  {
+    "number": 115,
+    "text": "Ile sieci Bravais’go występuje w układzie trójskośnym (triclinic)?",
+    "answers": [
+      { "text": "1", "correctness": "correct" },
+      { "text": "2", "correctness": "incorrect" },
+      { "text": "7", "correctness": "incorrect" },
+      { "text": "14", "correctness": "incorrect" }
+    ]
+  },
+  {
+    "number": 116,
+    "text": "Odstępstwo modelu od idealnej geometrii oznacza:",
+    "answers": [
+      { "text": "rozrzut wartości danego parametru", "correctness": "incorrect" },
+      { "text": "średnią kwadratową różnicę między wartością parametru w strukturze a wartością teoretyczną", "correctness": "correct" },
+      { "text": "średnią kwadratową różnicę między wartością parametru w strukturze a wartością z badań małych cząsteczek", "correctness": "incorrect" },
+      { "text": "średnią kwadratową różnicę między wartością parametru w strukturze a wartością z symulacji MD", "correctness": "incorrect" }
+    ]
+  },
+  {
+    "number": 117,
+    "text": "Aby zmienić równoległy arkusz β w arkusz antyrównoległy, należy:",
+    "answers": [
+      { "text": "odbić go w płaszczyźnie lustrzanej", "correctness": "incorrect" },
+      { "text": "obrócić go o 180°", "correctness": "incorrect" },
+      { "text": "zmienić zwrot wszystkich łańcuchów β", "correctness": "incorrect" },
+      { "text": "zmienić zwrot co drugiego łańcucha β", "correctness": "correct" }
+    ]
+  },
+  {
+    "number": 118,
+    "text": "Jeśli białko wykrystalizowało w grupie przestrzennej zawierającej osie enancjomorficzne, to na podstawie obrazu dyfrakcyjnego:",
+    "answers": [
+      { "text": "grupę zawsze można wyznaczyć jednoznacznie", "correctness": "incorrect" },
+      { "text": "grupy nie można wyznaczyć jednoznacznie", "correctness": "correct" },
+      { "text": "niektóre takie grupy można, a niektórych nie", "correctness": "incorrect" },
+      { "text": "żadne z powyższych", "correctness": "incorrect" }
+    ]
+  },
+  {
+    "number": 119,
+    "text": "W maksimum absorpcji (na krawędzi) korekta anomalna: f' oraz f'' – która wartość jest maksymalna?",
+    "answers": [
+      { "text": "f' ma wartość minimalną", "correctness": "incorrect" },
+      { "text": "f' ma wartość maksymalną", "correctness": "incorrect" },
+      { "text": "f'' ma wartość minimalną", "correctness": "incorrect" },
+      { "text": "f'' ma wartość maksymalną", "correctness": "correct" }
+    ]
+  },
+  {
+    "number": 120,
+    "text": "Które z poniższych stwierdzeń jest fałszywe?",
+    "answers": [
+      { "text": "białko może składać się tylko z jednego domeny", "correctness": "incorrect" },
+      { "text": "białko może składać się z wielu domen", "correctness": "incorrect" },
+      { "text": "pojedyncze domeny nie tworzą struktury czwartorzędowej", "correctness": "correct" },
+      { "text": "\"domena\" i \"podjednostka\" to różne pojęcia", "correctness": "incorrect" }
+    ]
+  },
+  {
+    "number": 121,
+    "text": "Wskaż zdanie prawdziwe:",
+    "answers": [
+      { "text": "wszystkie cysteiny w białku tworzą mostki dwusiarczkowe", "correctness": "correct" },
+      { "text": "mostki dwusiarczkowe to jedyne rozgałęzienia łańcucha polipeptydowego", "correctness": "incorrect" },
+      { "text": "międzycząsteczkowe mostki dwusiarczkowe są konieczne do wykrystalizowania białka", "correctness": "incorrect" },
+      { "text": "mostki dwusiarczkowe mogą w wyjątkowych przypadkach tworzyć także metionina", "correctness": "incorrect" }
+    ]
+  },
+  {
+    "number": 122,
+    "text": "Znajdź prawdziwe stwierdzenie:",
+    "answers": [
+      { "text": "struktura DNA jest bardziej zróżnicowana niż struktura białek", "correctness": "incorrect" },
+      { "text": "informacje o trójwymiarowej strukturze biomolekuł pochodzą głównie z badań krystalograficznych", "correctness": "correct" },
+      { "text": "obecnie strukturę każdego białka można łatwo przewidzieć metodami teoretycznymi", "correctness": "incorrect" },
+      { "text": "funkcja białka nie jest związana z jego strukturą", "correctness": "incorrect" }
+    ]
+  },
+  {
+    "number": 123,
+    "text": "Kryształ umieszczony między skrzyżowanymi polaryzatorami i obracany o 360° nie rozjaśnia pola w jednej orientacji, ale rozjaśnia je cztery razy w innej orientacji. Do którego układu należy?",
+    "answers": [
+      { "text": "jednoskośnego", "correctness": "incorrect" },
+      { "text": "regularnego (sześciennego)", "correctness": "incorrect" },
+      { "text": "tetragonalnego, trygonalnego lub heksagonalnego", "correctness": "correct" },
+      { "text": "rombowego, jednoskośnego lub trójskośnego", "correctness": "incorrect" }
+    ]
+  },
+  {
+    "number": 124,
+    "text": "Wskaż zdanie prawdziwe o parach Friedla i Bijvoeta:",
+    "answers": [
+      { "text": "para Friedla jest szczególnym przypadkiem pary Bijvoeta", "correctness": "incorrect" },
+      { "text": "para Bijvoeta jest szczególnym przypadkiem pary Friedla", "correctness": "correct" },
+      { "text": "pary Friedla i pary Bijvoeta to to samo", "correctness": "incorrect" },
+      { "text": "nie ma związku między parami Friedla i Bijvoeta", "correctness": "incorrect" }
+    ]
+  },
+  {
+    "number": 125,
+    "text": "Wskaż grupę przestrzenną z ustalonym początkiem układu:",
+    "answers": [
+      { "text": "C2", "correctness": "incorrect" },
+      { "text": "P4(2)", "correctness": "incorrect" },
+      { "text": "R3", "correctness": "incorrect" },
+      { "text": "P23", "correctness": "correct" }
+    ]
+  },
+  {
+    "number": 126,
+    "text": "Który z rodzajów centrowania sieci nie jest możliwy w układzie regularnym?",
+    "answers": [
+      { "text": "P", "correctness": "incorrect" },
+      { "text": "I", "correctness": "incorrect" },
+      { "text": "F", "correctness": "incorrect" },
+      { "text": "C", "correctness": "correct" }
+    ]
+  },
+  {
+    "number": 127,
+    "text": "Fatty-acid binding proteins mają następującą strukturę:",
+    "answers": [
+      { "text": "up-and-down barrel", "correctness": "incorrect" },
+      { "text": "greek-key barrel", "correctness": "incorrect" },
+      { "text": "jelly-roll barrel", "correctness": "correct" },
+      { "text": "α/β barrel", "correctness": "incorrect" }
+    ]
+  },
+  {
+    "number": 128,
+    "text": "Ile grup przestrzennych jest dostępnych dla krystalizacji białek?",
+    "answers": [
+      { "text": "11", "correctness": "incorrect" },
+      { "text": "32", "correctness": "incorrect" },
+      { "text": "65", "correctness": "correct" },
+      { "text": "230", "correctness": "incorrect" }
+    ]
+  },
+  {
+    "number": 129,
+    "text": "Powtarzające się jednostki peptydowe o kątach phi = −119° i psi = +113° utworzą:",
+    "answers": [
+      { "text": "helisę α", "correctness": "incorrect" },
+      { "text": "β-pasmo antyrównoległe", "correctness": "incorrect" },
+      { "text": "β-pasmo równoległe", "correctness": "correct" },
+      { "text": "nie utworzą regularnej struktury", "correctness": "incorrect" }
+    ]
+  },
+  {
+    "number": 130,
+    "text": "Do którego układu krystalograficznego należy klasa 1?",
+    "answers": [
+      { "text": "trójskośny", "correctness": "correct" },
+      { "text": "jednoskośny", "correctness": "incorrect" },
+      { "text": "rombowy", "correctness": "incorrect" },
+      { "text": "regularny", "correctness": "incorrect" }
+    ]
+  },
+  {
+    "number": 131,
+    "text": "Ile nukleotydów ma typowa cząsteczka tRNA?",
+    "answers": [
+      { "text": "35", "correctness": "incorrect" },
+      { "text": "75", "correctness": "correct" },
+      { "text": "150", "correctness": "incorrect" },
+      { "text": "750", "correctness": "incorrect" }
+    ]
+  },
+  {
+    "number": 132,
+    "text": "Która forma dwuniciowego DNA ma najmniejszą średnicę?",
+    "answers": [
+      { "text": "A-DNA", "correctness": "incorrect" },
+      { "text": "B-DNA", "correctness": "incorrect" },
+      { "text": "Z-DNA", "correctness": "correct" },
+      { "text": "wszystkie mają taką samą", "correctness": "incorrect" }
+    ]
+  },
+  {
+    "number": 133,
+    "text": "Który z wymienionych cylindrów (fałdów) ma strukturę α/β?",
+    "answers": [
+      { "text": "cylinder góra-dół", "correctness": "incorrect" },
+      { "text": "cylinder meandryczny", "correctness": "incorrect" },
+      { "text": "cylinder typu rolady (jelly-roll)", "correctness": "incorrect" },
+      { "text": "cylinder TIM", "correctness": "correct" }
+    ]
+  },
+  {
+    "number": 134,
+    "text": "Który z poniższych symboli grupy przestrzennej jest niepoprawny?",
+    "answers": [
+      { "text": "Cccm", "correctness": "incorrect" },
+      { "text": "B4", "correctness": "correct" },
+      { "text": "P622", "correctness": "incorrect" },
+      { "text": "I23", "correctness": "incorrect" }
+    ]
+  },
+  {
+    "number": 135,
+    "text": "Objętość Matthewsa to:",
+    "answers": [
+      { "text": "objętość cząsteczki białka w krysztale", "correctness": "incorrect" },
+      { "text": "objętość roztworu w krysztale", "correctness": "incorrect" },
+      { "text": "objętość 1 mola suchego białka", "correctness": "incorrect" },
+      { "text": "objętość kryształu przypadająca na 1 dalton masy białka", "correctness": "correct" }
+    ]
+  },
+  {
+    "number": 136,
+    "text": "Helisa α charakteryzuje się kątami phi i psi około (°):",
+    "answers": [
+      { "text": "-60, -60", "correctness": "correct" },
+      { "text": "-60, 60", "correctness": "incorrect" },
+      { "text": "120, -120", "correctness": "incorrect" },
+      { "text": "-120, 120", "correctness": "incorrect" }
+    ]
+  },
+  {
+    "number": 137,
+    "text": "Linus Pauling odkrył:",
+    "answers": [
+      { "text": "podwójną helisę DNA", "correctness": "incorrect" },
+      { "text": "helisę α", "correctness": "correct" },
+      { "text": "penicylinę", "correctness": "incorrect" },
+      { "text": "witaminę C", "correctness": "incorrect" }
+    ]
+  },
+  {
+    "number": 138,
+    "text": "Ile cząsteczek RNA znajduje się w małej podjednostce rybosomu (E. coli)?",
+    "answers": [
+      { "text": "brak", "correctness": "incorrect" },
+      { "text": "1", "correctness": "correct" },
+      { "text": "2", "correctness": "incorrect" },
+      { "text": "3", "correctness": "incorrect" }
+    ]
+  },
+  {
+    "number": 139,
+    "text": "Rozpraszanie anomalne w połączeniu z pojedynczą pochodną izomorficzną:",
+    "answers": [
+      { "text": "umożliwia jednoznaczne rozwiązanie problemu fazowego", "correctness": "correct" },
+      { "text": "umożliwia tylko dwuznaczne rozwiązanie problemu fazowego", "correctness": "incorrect" },
+      { "text": "nie umożliwia rozwiązania problemu fazowego", "correctness": "incorrect" },
+      { "text": "taka kombinacja nie występuje", "correctness": "incorrect" }
+    ]
+  },
+  {
+    "number": 140,
+    "text": "Która z wymienionych grup przestrzennych może być wyznaczona jednoznacznie na podstawie obrazu dyfrakcyjnego, jeśli wiadomo, że dotyczy kryształu białka?",
+    "answers": [
+      { "text": "P4(1)2(1)2", "correctness": "correct" },
+      { "text": "I2(1)2(1)2(1)", "correctness": "incorrect" },
+      { "text": "I2(1)3", "correctness": "incorrect" },
+      { "text": "żadna z powyższych", "correctness": "incorrect" }
+    ]
+  },
+  {
+    "number": 141,
+    "text": "Powtarzające się jednostki peptydowe o kątach phi = −139° i psi = +135° utworzą:",
+    "answers": [
+      { "text": "helisę α", "correctness": "incorrect" },
+      { "text": "łańcuch β antyrównoległy", "correctness": "correct" },
+      { "text": "łańcuch β równoległy", "correctness": "incorrect" },
+      { "text": "nie tworzą żadnej struktury drugorzędowej", "correctness": "incorrect" }
+    ]
+  },
+  {
+    "number": 142,
+    "text": "Do którego układu krystalograficznego należy klasa 422?",
+    "answers": [
+      { "text": "jednoskośny", "correctness": "incorrect" },
+      { "text": "rombowy", "correctness": "incorrect" },
+      { "text": "tetragonalny", "correctness": "correct" },
+      { "text": "regularny", "correctness": "incorrect" }
+    ]
+  },
+  {
+    "number": 143,
+    "text": "W którym układzie możliwe są sieci Bravais’go typu P, I, F i C?",
+    "answers": [
+      { "text": "trójskośny", "correctness": "incorrect" },
+      { "text": "jednoskośny", "correctness": "incorrect" },
+      { "text": "rombowy", "correctness": "correct" },
+      { "text": "regularny", "correctness": "incorrect" }
+    ]
+  },
+  {
+    "number": 144,
+    "text": "Znajdź prawdziwe stwierdzenie:",
+    "answers": [
+      { "text": "wszystkie białka mają strukturę czwartorzędową", "correctness": "incorrect" },
+      { "text": "mioglobina nie ma struktury trzeciorzędowej", "correctness": "incorrect" },
+      { "text": "mioglobina nie ma struktury czwartorzędowej", "correctness": "correct" },
+      { "text": "hemoglobina nie ma struktury czwartorzędowej", "correctness": "incorrect" }
+    ]
+  },
+  {
+    "number": 145,
+    "text": "Do jakich układów należą klasy 32 i 23?",
+    "answers": [
+      { "text": "obie są trygonalne", "correctness": "incorrect" },
+      { "text": "obie są regularne (kubiczne)", "correctness": "incorrect" },
+      { "text": "32 – regularna, 23 – trygonalna", "correctness": "incorrect" },
+      { "text": "32 – trygonalna, 23 – regularna", "correctness": "correct" }
+    ]
+  },
+  {
+    "number": 146,
+    "text": "Jaka jest odległość między płaszczyznami sąsiednich par zasad w B-DNA (w Å)?",
+    "answers": [
+      { "text": "2.6", "correctness": "incorrect" },
+      { "text": "3.4", "correctness": "correct" },
+      { "text": "3.6", "correctness": "incorrect" },
+      { "text": "33.8", "correctness": "incorrect" }
+    ]
+  },
+  {
+    "number": 147,
+    "text": "Jaka jest konformacja rybozy w dwuniciowym A-RNA?",
+    "answers": [
+      { "text": "C2'-endo", "correctness": "incorrect" },
+      { "text": "C2'-egzo", "correctness": "incorrect" },
+      { "text": "C3'-endo", "correctness": "correct" },
+      { "text": "C3'-egzo", "correctness": "incorrect" }
+    ]
+  },
+  {
+    "number": 148,
+    "text": "Jakich odczynników używa się w metodzie \"dauterization\" (pochodnych izomorficznych)?",
+    "answers": [
+      { "text": "kationów metali ciężkich", "correctness": "incorrect" },
+      { "text": "deuteru", "correctness": "incorrect" },
+      { "text": "halogenków (Br⁻, I⁻)", "correctness": "correct" },
+      { "text": "selenometioniny (Se-Met)", "correctness": "incorrect" }
+    ]
+  },
+  {
+    "number": 149,
+    "text": "Który z wymienionych symboli grupy przestrzennej jest niepoprawny?",
+    "answers": [
+      { "text": "Cccm", "correctness": "incorrect" },
+      { "text": "B4", "correctness": "correct" },
+      { "text": "P622", "correctness": "incorrect" },
+      { "text": "I23", "correctness": "incorrect" }
+    ]
+  },
+  {
+    "number": 150,
+    "text": "Część normalna czynnika rozpraszania atomowego zależy:",
+    "answers": [
+      { "text": "tylko od długości fali", "correctness": "incorrect" },
+      { "text": "tylko od kąta rozproszenia", "correctness": "incorrect" },
+      { "text": "od długości fali i kąta rozproszenia", "correctness": "correct" },
+      { "text": "nie zależy od długości fali ani kąta rozproszenia", "correctness": "incorrect" }
+    ]
+  },
+  {
+    "number": 151,
+    "text": "Najlepsze wiązanie Hg w pochodnych izomorficznych zapewniają:",
+    "answers": [
+      { "text": "grupy NH⁺ aminokwasów zasadowych", "correctness": "incorrect" },
+      { "text": "grupy OH aminokwasów (np. seryna, treonina, tyrozyna)", "correctness": "incorrect" },
+      { "text": "wolne grupy SH cystein", "correctness": "correct" },
+      { "text": "rtęć wiąże się do wszystkich aminokwasów przez grupę amidową", "correctness": "incorrect" }
+    ]
+  },
+  {
+    "number": 152,
+    "text": "Ile osi czterokrotnych brakuje w zestawie: 4, 4₁, 4₂, 4₃?",
+    "answers": [
+      { "text": "żadnej", "correctness": "incorrect" },
+      { "text": "1", "correctness": "correct" },
+      { "text": "2", "correctness": "incorrect" },
+      { "text": "3", "correctness": "incorrect" }
+    ]
+  },
+  {
+    "number": 153,
+    "text": "Strukturę kryształu białka wyznaczono przy użyciu promieniowania Cu (λ = 1,5418 Å) do kąta 2θ = 60°. Jaka jest uzyskana rozdzielczość?",
+    "answers": [
+      { "text": "1 Å", "correctness": "incorrect" },
+      { "text": "1.5 Å", "correctness": "incorrect" },
+      { "text": "2 Å", "correctness": "correct" },
+      { "text": "3 Å", "correctness": "incorrect" }
+    ]
+  },
+  {
+    "number": 154,
+    "text": "Ile par zasad przypada na jeden skręt helisy Z-DNA?",
+    "answers": [
+      { "text": "3.6", "correctness": "incorrect" },
+      { "text": "10", "correctness": "incorrect" },
+      { "text": "12", "correctness": "correct" },
+      { "text": "33.8", "correctness": "incorrect" }
+    ]
+  },
+  {
+    "number": 155,
+    "text": "Do czego służy pryzmat Nicola?",
+    "answers": [
+      { "text": "do rozszczepiania światła", "correctness": "incorrect" },
+      { "text": "do ogniskowania światła", "correctness": "incorrect" },
+      { "text": "do filtrowania światła", "correctness": "incorrect" },
+      { "text": "do polaryzacji światła", "correctness": "correct" }
+    ]
+  },
+  {
+    "number": 156,
+    "text": "Która forma dwuniciowego DNA ma największą średnicę?",
+    "answers": [
+      { "text": "A-DNA", "correctness": "correct" },
+      { "text": "B-DNA", "correctness": "incorrect" },
+      { "text": "Z-DNA", "correctness": "incorrect" },
+      { "text": "wszystkie mają taką samą", "correctness": "incorrect" }
+    ]
+  },
+  {
+    "number": 157,
+    "text": "Typowa długość wiązania koordynacyjnego Mg–O wynosi około:",
+    "answers": [
+      { "text": "1 Å", "correctness": "incorrect" },
+      { "text": "2 Å", "correctness": "correct" },
+      { "text": "3.6 Å", "correctness": "incorrect" },
+      { "text": "10 Å", "correctness": "incorrect" }
+    ]
+  },
+  {
+    "number": 158,
+    "text": "Ile par zasad przypada na jeden skręt helisy B-DNA?",
+    "answers": [
+      { "text": "3.6", "correctness": "incorrect" },
+      { "text": "10", "correctness": "correct" },
+      { "text": "12", "correctness": "incorrect" },
+      { "text": "33.8", "correctness": "incorrect" }
+    ]
+  },
+  {
+    "number": 159,
+    "text": "Ile cząsteczek RNA znajduje się w dużej podjednostce rybosomu (E. coli)?",
+    "answers": [
+      { "text": "1", "correctness": "incorrect" },
+      { "text": "2", "correctness": "incorrect" },
+      { "text": "3", "correctness": "correct" },
+      { "text": "6", "correctness": "incorrect" }
+    ]
+  },
+  {
+    "number": 160,
+    "text": "Znajdź fałszywe stwierdzenie o motywie up-and-down barrel:",
+    "answers": [
+      { "text": "składa się z antyrównoległych łańcuchów β", "correctness": "incorrect" },
+      { "text": "zawiera motywy hairpin", "correctness": "incorrect" },
+      { "text": "ma hydrofobowy rdzeń", "correctness": "incorrect" },
+      { "text": "ma hydrofilowy rdzeń", "correctness": "correct" }
+    ]
+  },
+  {
+    "number": 161,
+    "text": "Która z wymienionych grup przestrzennych nie może być wyznaczona jednoznacznie na podstawie obrazu dyfrakcyjnego?",
+    "answers": [
+      { "text": "P1", "correctness": "incorrect" },
+      { "text": "C222", "correctness": "incorrect" },
+      { "text": "R3", "correctness": "incorrect" },
+      { "text": "I2(1)3", "correctness": "correct" }
+    ]
+  },
+  {
+    "number": 162,
+    "text": "Kto i kiedy odkrył strukturę podwójnej helisy DNA?",
+    "answers": [
+      { "text": "Chargaff, 1938", "correctness": "incorrect" },
+      { "text": "Linus Pauling, 1952", "correctness": "incorrect" },
+      { "text": "Francis Crick & James Watson, 1953", "correctness": "correct" },
+      { "text": "John Kendrew, 1959", "correctness": "incorrect" }
+    ]
+  },
+  {
+    "number": 163,
+    "text": "Poli(dG·dC) krystalizowany z wysoką siłą jonową przyjmuje formę:",
+    "answers": [
+      { "text": "A-DNA", "correctness": "incorrect" },
+      { "text": "B-DNA", "correctness": "incorrect" },
+      { "text": "Z-DNA", "correctness": "correct" },
+      { "text": "forma zależy od wilgotności", "correctness": "incorrect" }
+    ]
+  },
+  {
+    "number": 164,
+    "text": "Dlaczego grupy hydrofobowe w wodzie mają tendencję do klasteryzacji?",
+    "answers": [
+      { "text": "występuje silne przyciąganie między grupami polarnymi a hydrofobowymi", "correctness": "incorrect" },
+      { "text": "uporządkowana struktura jest faworyzowana entropijnie", "correctness": "incorrect" },
+      { "text": "uporządkowanie wody jest faworyzowane entropijnie", "correctness": "incorrect" },
+      { "text": "umożliwia uwolnienie większej ilości wody do fazy nieuporządkowanej", "correctness": "correct" }
+    ]
+  },
+  {
+    "number": 165,
+    "text": "Powtarzające się jednostki peptydowe o kątach phi = −57° i psi = −47° utworzą:",
+    "answers": [
+      { "text": "helisę α", "correctness": "correct" },
+      { "text": "β-łańcuch równoległy", "correctness": "incorrect" },
+      { "text": "β-łańcuch antyrównoległy", "correctness": "incorrect" },
+      { "text": "brak regularnej struktury", "correctness": "incorrect" }
+    ]
+  },
+  {
+    "number": 166,
+    "text": "Jaki procent masy rybosomu przypada na RNA?",
+    "answers": [
+      { "text": "15%", "correctness": "incorrect" },
+      { "text": "33%", "correctness": "incorrect" },
+      { "text": "50%", "correctness": "correct" },
+      { "text": "66%", "correctness": "incorrect" }
+    ]
+  },
+  {
+    "number": 167,
+    "text": "Który z poniższych nukleozydów NIE należy do grupy pirymidynowych?",
+    "answers": [
+      { "text": "cytydyna", "correctness": "incorrect" },
+      { "text": "adenozyna", "correctness": "correct" },
+      { "text": "tymidyna", "correctness": "incorrect" },
+      { "text": "urydyna", "correctness": "incorrect" }
+    ]
+  },
+  {
+    "number": 168,
+    "text": "Jaki jest zakres długości fal (w Å) światła widzialnego?",
+    "answers": [
+      { "text": "40–70", "correctness": "incorrect" },
+      { "text": "400–700", "correctness": "correct" },
+      { "text": "4000–7000", "correctness": "incorrect" },
+      { "text": "40000–70000", "correctness": "incorrect" }
+    ]
+  },
+  {
+    "number": 169,
+    "text": "Do którego układu krystalograficznego należy klasa m3m?",
+    "answers": [
+      { "text": "trójskośny", "correctness": "incorrect" },
+      { "text": "rombowy", "correctness": "incorrect" },
+      { "text": "trygonalny", "correctness": "incorrect" },
+      { "text": "regularny (sześcienny)", "correctness": "correct" }
+    ]
+  },
+  {
+    "number": 170,
+    "text": "Znajdź oś śrubową, która nie jest neutralna:",
+    "answers": [
+      { "text": "2(1)", "correctness": "incorrect" },
+      { "text": "3(1)", "correctness": "correct" },
+      { "text": "6(3)", "correctness": "incorrect" },
+      { "text": "więcej niż jedna", "correctness": "incorrect" }
+    ]
+  },
+  {
+    "number": 171,
+    "text": "Jeśli białko wykrystalizowało w grupie przestrzennej zawierającej osie enancjomorficzne, to na podstawie obrazu dyfrakcyjnego:",
+    "answers": [
+      { "text": "grupę zawsze można wyznaczyć jednoznacznie", "correctness": "incorrect" },
+      { "text": "grupy nie można wyznaczyć jednoznacznie", "correctness": "correct" },
+      { "text": "niektóre takie grupy można, a niektórych nie", "correctness": "incorrect" },
+      { "text": "żadne z powyższych", "correctness": "incorrect" }
+    ]
+  },
+  {
+    "number": 172,
+    "text": "Która forma dwuniciowego DNA jest lewoskrętna?",
+    "answers": [
+      { "text": "A-DNA", "correctness": "incorrect" },
+      { "text": "B-DNA", "correctness": "incorrect" },
+      { "text": "Z-DNA", "correctness": "correct" },
+      { "text": "DNA zawsze jest prawoskrętne", "correctness": "incorrect" }
+    ]
+  },
+  {
+    "number": 173,
+    "text": "Konformacja wiązania glikozydowego definiowana jest jako:",
+    "answers": [
+      { "text": "cis-trans", "correctness": "incorrect" },
+      { "text": "syn-anti", "correctness": "correct" },
+      { "text": "egzo-endo", "correctness": "incorrect" },
+      { "text": "gauche-trans", "correctness": "incorrect" }
+    ]
+  },
+  {
+    "number": 174,
+    "text": "Jaka jest orientacja łańcuchów bocznych w Z-DNA?",
+    "answers": [
+      { "text": "pirymidyny: gauche-gauche, puryny: trans-gauche", "correctness": "incorrect" },
+      { "text": "pirymidyny: trans-gauche, puryny: gauche-gauche", "correctness": "incorrect" },
+      { "text": "pirymidyny: gauche-trans, puryny: gauche-gauche", "correctness": "incorrect" },
+      { "text": "pirymidyny: gauche-gauche, puryny: gauche-trans", "correctness": "correct" }
+    ]
+  },
+  {
+    "number": 175,
+    "text": "Który z poniższych aminokwasów zawiera siarkę?",
+    "answers": [
+      { "text": "seryna", "correctness": "incorrect" },
+      { "text": "cysteina", "correctness": "correct" },
+      { "text": "tryptofan", "correctness": "incorrect" },
+      { "text": "arginina", "correctness": "incorrect" }
+    ]
+  },
+  {
+    "number": 176,
+    "text": "Ile jest trójwymiarowych grup punktowych (klas krystalograficznych)?",
+    "answers": [
+      { "text": "11", "correctness": "incorrect" },
+      { "text": "14", "correctness": "incorrect" },
+      { "text": "32", "correctness": "correct" },
+      { "text": "230", "correctness": "incorrect" }
+    ]
+  },
+  {
+    "number": 177,
+    "text": "Kryształ umieszczony między skrzyżowanymi polaryzatorami i obracany o 360° rozjaśnia pole we wszystkich orientacjach. Do którego układu należy?",
+    "answers": [
+      { "text": "dowolnego", "correctness": "incorrect" },
+      { "text": "regularnego (sześciennego)", "correctness": "correct" },
+      { "text": "tetragonalnego, trygonalnego lub heksagonalnego", "correctness": "incorrect" },
+      { "text": "rombowego, jednoskośnego lub trójskośnego", "correctness": "incorrect" }
+    ]
+  },
+  {
+    "number": 178,
+    "text": "Jaka jest relacja między parami Bijvoeta a parami Friedla?",
+    "answers": [
+      { "text": "pary Bijvoeta są szczególnym przypadkiem par Friedla", "correctness": "incorrect" },
+      { "text": "pary Friedla są szczególnym przypadkiem par Bijvoeta", "correctness": "correct" },
+      { "text": "są to te same pary", "correctness": "incorrect" },
+      { "text": "nie są powiązane", "correctness": "incorrect" }
+    ]
+  },
+  {
+    "number": 179,
+    "text": "Trydymit i krystobalit są polimorficznymi odmianami:",
+    "answers": [
+      { "text": "kwarcu", "correctness": "incorrect" },
+      { "text": "węgla", "correctness": "incorrect" },
+      { "text": "magnezu", "correctness": "incorrect" },
+      { "text": "krzemionki (SiO₂)", "correctness": "correct" }
+    ]
+  },
+  {
+    "number": 180,
+    "text": "Więzy stereochemiczne stosowane w udokładnianiu struktur białek:",
+    "answers": [
+      { "text": "poprawiają stosunek liczby obserwacji do liczby parametrów", "correctness": "correct" },
+      { "text": "pogarszają stosunek, bo wprowadzają dodatkowe parametry", "correctness": "incorrect" },
+      { "text": "nie mają wpływu na stosunek obserwacji do parametrów", "correctness": "incorrect" },
+      { "text": "są stosowane wyłącznie kosmetycznie", "correctness": "incorrect" }
+    ]
+  },
+  {
+    "number": 181,
+    "text": "Które stwierdzenie jest prawdziwe?",
+    "answers": [
+      { "text": "Wartość kąta torsyjnego A–B–C–D zależy od kierunku patrzenia (B–C vs C–B)", "correctness": "correct" },
+      { "text": "Kąty torsyjne w izomerach optycznych są takie same", "correctness": "incorrect" },
+      { "text": "Konfigurację absolutną można zawsze zdefiniować przez kąty torsyjne", "correctness": "incorrect" },
+      { "text": "Wartość kąta torsyjnego nie przekracza 180°", "correctness": "incorrect" }
+    ]
+  },
+  {
+    "number": 182,
+    "text": "Mapa 2Fₒ − F꜀ zawiera gęstość elektronową:",
+    "answers": [
+      { "text": "odpowiadającą zarówno obszarom ujętym, jak i pominiętym", "correctness": "correct" },
+      { "text": "tylko z obszaru objętego modelem", "correctness": "incorrect" },
+      { "text": "tylko z obszaru pominiętego w modelu", "correctness": "incorrect" },
+      { "text": "nie jest stosowana w krystalografii białek", "correctness": "incorrect" }
+    ]
+  },
+  {
+    "number": 183,
+    "text": "Który z poniższych nukleozydów jest pirymidyną deoksyrybozową?",
+    "answers": [
+      { "text": "adenozyna", "correctness": "incorrect" },
+      { "text": "guanozyna", "correctness": "incorrect" },
+      { "text": "tymidyna", "correctness": "correct" },
+      { "text": "urydyna", "correctness": "incorrect" }
+    ]
+  },
+  {
+    "number": 184,
+    "text": "Typowa odległość N···O w wiązaniu wodorowym N–H···O wynosi:",
+    "answers": [
+      { "text": "1.0 Å", "correctness": "incorrect" },
+      { "text": "1.5 Å", "correctness": "incorrect" },
+      { "text": "2.7 Å", "correctness": "correct" },
+      { "text": "3.6 Å", "correctness": "incorrect" }
+    ]
+  },
+  {
+    "number": 185,
+    "text": "Jaki element symetrii odpowiada transformacji (x, y, z) → (x, –y, z)?",
+    "answers": [
+      { "text": "to niedozwolona operacja", "correctness": "incorrect" },
+      { "text": "oś dwukrotna wzdłuż z", "correctness": "incorrect" },
+      { "text": "płaszczyzna lustrzana prostopadła do x", "correctness": "incorrect" },
+      { "text": "płaszczyzna lustrzana prostopadła do y", "correctness": "correct" }
+    ]
+  },
+  {
+    "number": 186,
+    "text": "Wskaż grupę przestrzenną z ruchomym początkiem układu:",
+    "answers": [
+      { "text": "P1", "correctness": "incorrect" },
+      { "text": "P222(1)", "correctness": "incorrect" },
+      { "text": "P3(1)21", "correctness": "correct" },
+      { "text": "P2(1)3", "correctness": "incorrect" }
+    ]
+  },
+  {
+    "number": 187,
+    "text": "W której formie DNA duża bruzda jest szeroka i głęboka, a mała bruzda jest wąska i głęboka?",
+    "answers": [
+      { "text": "A-DNA", "correctness": "incorrect" },
+      { "text": "B-DNA", "correctness": "correct" },
+      { "text": "Z-DNA", "correctness": "incorrect" },
+      { "text": "nie można jednoznacznie stwierdzić", "correctness": "incorrect" }
+    ]
+  },
+  {
+    "number": 188,
+    "text": "Który promień w kryształach dwójłomnych jednoosiowych ma prędkość niezależną od kierunku?",
+    "answers": [
+      { "text": "E", "correctness": "incorrect" },
+      { "text": "O", "correctness": "correct" },
+      { "text": "żaden", "correctness": "incorrect" },
+      { "text": "oba", "correctness": "incorrect" }
+    ]
+  },
+  {
+    "number": 189,
+    "text": "Ile struktur białek zostało wyznaczonych metodą dyfrakcji rentgenowskiej?",
+    "answers": [
+      { "text": "około 50", "correctness": "incorrect" },
+      { "text": "około 100", "correctness": "incorrect" },
+      { "text": "około 1000", "correctness": "incorrect" },
+      { "text": "ponad 10 000", "correctness": "correct" }
+    ]
+  },
+  {
+    "number": 190,
+    "text": "Metodę podstawienia izomorficznego ilustruje:",
+    "answers": [
+      { "text": "konstrukcja Ewalda", "correctness": "incorrect" },
+      { "text": "konstrukcja Lauego", "correctness": "incorrect" },
+      { "text": "wykres Arganda", "correctness": "correct" },
+      { "text": "diagram Harkera", "correctness": "incorrect" }
+    ]
+  },
+  {
+    "number": 191,
+    "text": "W którym układzie krystalograficznym nie ma grup przestrzennych bez pozycji specjalnych?",
+    "answers": [
+      { "text": "trójskośnym", "correctness": "incorrect" },
+      { "text": "rombowym", "correctness": "incorrect" },
+      { "text": "regularnym", "correctness": "incorrect" },
+      { "text": "nie ma takiego układu", "correctness": "correct" }
+    ]
+  },
+  {
+    "number": 192,
+    "text": "C3' odchyla się od płaszczyzny pierścienia w tym samym kierunku co C5'. Jaka to konformacja cukru?",
+    "answers": [
+      { "text": "C3'-endo", "correctness": "correct" },
+      { "text": "C2'-endo", "correctness": "incorrect" },
+      { "text": "C3'-egzo", "correctness": "incorrect" },
+      { "text": "C2'-egzo", "correctness": "incorrect" }
+    ]
+  },
+  {
+    "number": 193,
+    "text": "Która z poniższych klas punktowych nie należy do układu rombowego?",
+    "answers": [
+      { "text": "2/m", "correctness": "correct" },
+      { "text": "222", "correctness": "incorrect" },
+      { "text": "mm2", "correctness": "incorrect" },
+      { "text": "mmm", "correctness": "incorrect" }
+    ]
+  },
+  {
+    "number": 194,
+    "text": "W krystalizacji białka NaN₃ stosuje się jako:",
+    "answers": [
+      { "text": "wytrączacz", "correctness": "incorrect" },
+      { "text": "reduktor", "correctness": "incorrect" },
+      { "text": "bufor", "correctness": "incorrect" },
+      { "text": "środek przeciwbakteryjny", "correctness": "correct" }
+    ]
+  },
+  {
+    "number": 195,
+    "text": "Ile razy podczas pełnego obrotu (360°) między skrzyżowanymi polaryzatorami kryształ optycznie anizotropowy rozjaśni pole?",
+    "answers": [
+      { "text": "4", "correctness": "correct" },
+      { "text": "8", "correctness": "incorrect" },
+      { "text": "pole pozostanie jasne", "correctness": "incorrect" },
+      { "text": "pole pozostanie ciemne", "correctness": "incorrect" }
+    ]
+  },
+  {
+    "number": 196,
+    "text": "Która z form DNA ma najmniejszą odległość między płaszczyznami sąsiednich par zasad?",
+    "answers": [
+      { "text": "A-DNA", "correctness": "correct" },
+      { "text": "B-DNA", "correctness": "incorrect" },
+      { "text": "Z-DNA", "correctness": "incorrect" },
+      { "text": "we wszystkich taka sama", "correctness": "incorrect" }
+    ]
+  },
+  {
+    "number": 197,
+    "text": "Które stwierdzenie o helisie α jest fałszywe?",
+    "answers": [
+      { "text": "zazwyczaj mają długość powyżej 75 Å", "correctness": "correct" },
+      { "text": "mogą zawierać ponad 36 reszt aminokwasowych", "correctness": "incorrect" },
+      { "text": "ich powierzchnia może być hydrofobowa i hydrofilowa", "correctness": "incorrect" },
+      { "text": "posiadają moment dipolowy", "correctness": "incorrect" }
+    ]
+  },
+  {
+    "number": 198,
+    "text": "Jaki jest skok (pitch) podwójnej helisy B-DNA (w Å)?",
+    "answers": [
+      { "text": "1.54", "correctness": "incorrect" },
+      { "text": "3.4", "correctness": "incorrect" },
+      { "text": "20", "correctness": "incorrect" },
+      { "text": "33.8", "correctness": "correct" }
+    ]
+  },
+  {
+    "number": 199,
+    "text": "Fragment łańcucha polipeptydowego z jednostek trans-peptydowych ma kąty torsyjne: CO–N–Cα–CO = +120°, N–Cα–CO–N = −60°. Jaka to konformacja?",
+    "answers": [
+      { "text": "helisa α", "correctness": "incorrect" },
+      { "text": "rozciągnięty łańcuch β", "correctness": "incorrect" },
+      { "text": "sytuacja niemożliwa; nie odpowiada żadnej trwałej strukturze", "correctness": "correct" },
+      { "text": "brakuje informacji o wiązaniach wodorowych", "correctness": "incorrect" }
+    ]
+  },
+  {
+    "number": 200,
+    "text": "Które stwierdzenie charakteryzujące kryształy białek jest fałszywe?",
+    "answers": [
+      { "text": "są łatwo odwodnione i tracą krystaliczność", "correctness": "incorrect" },
+      { "text": "promieniowanie jonizujące wywołuje degradację przez wolne rodniki", "correctness": "incorrect" },
+      { "text": "są niestabilne, bo powierzchnia białek jest hydrofobowa", "correctness": "correct" },
+      { "text": "dla stabilności wymagają mother liquor", "correctness": "incorrect" }
+    ]
+  },
+  {
+    "number": 201,
+    "text": "Do którego układu krystalograficznego należy grupa przestrzenna P2₁2₁2₁?",
+    "answers": [
+      { "text": "trójskośny", "correctness": "incorrect" },
+      { "text": "jednoskośny", "correctness": "incorrect" },
+      { "text": "rombowy", "correctness": "correct" },
+      { "text": "trygonalny", "correctness": "incorrect" }
+    ]
+  },
+  {
+    "number": 202,
+    "text": "Patrząc na alaninę wzdłuż wiązania Cα–H od strony Cα, kolejność podstawnika: CO → CH₃ → N. Jaki izomer?",
+    "answers": [
+      { "text": "L-alanina", "correctness": "correct" },
+      { "text": "D-alanina", "correctness": "incorrect" },
+      { "text": "nie można określić", "correctness": "incorrect" },
+      { "text": "alanina nie jest chiralna", "correctness": "incorrect" }
+    ]
+  },
+  {
+    "number": 203,
+    "text": "a = b, c dowolne; α = β = γ = 90°. Do którego układu krystalograficznego należy taka komórka?",
+    "answers": [
+      { "text": "jednoskośny", "correctness": "incorrect" },
+      { "text": "rombowy", "correctness": "incorrect" },
+      { "text": "tetragonalny", "correctness": "correct" },
+      { "text": "heksagonalny", "correctness": "incorrect" }
+    ]
+  },
+  {
+    "number": 204,
+    "text": "a, b, c dowolne; α = γ = 90°, β dowolny. Jaki to układ?",
+    "answers": [
+      { "text": "jednoskośny (monoklinowy)", "correctness": "correct" },
+      { "text": "rombowy", "correctness": "incorrect" },
+      { "text": "trygonalny", "correctness": "incorrect" },
+      { "text": "heksagonalny", "correctness": "incorrect" }
+    ]
+  },
+  {
+    "number": 205,
+    "text": "Porównaj promienie jonowe La³⁺ i Yb³⁺:",
+    "answers": [
+      { "text": "r(La³⁺) > r(Yb³⁺)", "correctness": "correct" },
+      { "text": "r(La³⁺) = r(Yb³⁺)", "correctness": "incorrect" },
+      { "text": "r(La³⁺) < r(Yb³⁺)", "correctness": "incorrect" },
+      { "text": "podane ładunki są błędne", "correctness": "incorrect" }
+    ]
+  },
+  {
+    "number": 206,
+    "text": "Ile białek wchodzi w skład rybosomu bakteryjnego (E. coli)?",
+    "answers": [
+      { "text": "21", "correctness": "incorrect" },
+      { "text": "32", "correctness": "incorrect" },
+      { "text": "53", "correctness": "correct" },
+      { "text": "250", "correctness": "incorrect" }
+    ]
+  },
+  {
+    "number": 207,
+    "text": "Metoda MIR polega na:",
+    "answers": [
+      { "text": "rozwiązaniu problemu fazowego według teorii radzieckiej", "correctness": "incorrect" },
+      { "text": "rejestracji danych przy różnych długościach fali", "correctness": "incorrect" },
+      { "text": "rejestracji danych dla kilku pochodnych izomorficznych", "correctness": "correct" },
+      { "text": "rejestracji danych dla jednej pochodnej zawierającej różne atomy ciężkie", "correctness": "incorrect" }
+    ]
+  },
+  {
+    "number": 208,
+    "text": "W metodzie MAD najczęściej wykorzystuje się Se. Wprowadza się go do białka:",
+    "answers": [
+      { "text": "rekombinacyjnie, w postaci selenocysteiny", "correctness": "incorrect" },
+      { "text": "rekombinacyjnie, w postaci selenometioniny", "correctness": "correct" },
+      { "text": "przez dodanie selenometioniny do krystalizacji", "correctness": "incorrect" },
+      { "text": "przez nasączenie/współkrystalizację z selenianem amonu", "correctness": "incorrect" }
+    ]
+  },
+  {
+    "number": 209,
+    "text": "Z czego wykonany jest pryzmat Nicola?",
+    "answers": [
+      { "text": "ze szkła", "correctness": "incorrect" },
+      { "text": "z kwarcu", "correctness": "incorrect" },
+      { "text": "z pleksiglasu", "correctness": "incorrect" },
+      { "text": "z kalcytu (CaCO₃, tzw. szpat islandzki)", "correctness": "correct" }
+    ]
+  },
+  {
+    "number": 210,
+    "text": "Natywne białko zawiera jon Ca²⁺. W pochodnej izomorficznej wymieniono go na jon Sm³⁺. Jaki sygnał izomorficzny (w e⁻) otrzymamy?",
+    "answers": [
+      { "text": "równy liczbie atomowej Sm (62 e⁻)", "correctness": "incorrect" },
+      { "text": "równy liczbie elektronów Sm³⁺ (59 e⁻)", "correctness": "incorrect" },
+      { "text": "równy różnicy liczby elektronów między Sm³⁺ a Ca²⁺, czyli 41 e⁻", "correctness": "correct" },
+      { "text": "równy różnicy ładunków, czyli 1 e⁻", "correctness": "incorrect" }
+    ]
+  },
+  {
+    "number": 211,
+    "text": "Czterokrotna oś inwersyjna (\\(\\bar{4}\\)) przekształca dane punkty w sposób:",
+    "answers": [
+      { "text": "obrót o 60° i odbicie w płaszczyźnie prostopadłej", "correctness": "incorrect" },
+      { "text": "obrót o 90° i przekształcenie przez środek symetrii", "correctness": "correct" },
+      { "text": "obrót o 120° i przekształcenie przez środek symetrii wzdłuż osi", "correctness": "incorrect" },
+      { "text": "obrót o 180° i odbicie w równoległej płaszczyźnie", "correctness": "incorrect" }
+    ]
+  },
+  {
+    "number": 212,
+    "text": "Wskaż macierz w układzie rombowym, która odpowiada operacji środka symetrii (inwersji):",
+    "answers": [
+      {
+        "text": "\\(\\begin{pmatrix}1 & 0 & 0\\\\0 & 1 & 0\\\\0 & 0 & 1\\end{pmatrix}\\)",
+        "correctness": "incorrect"
+      },
+      {
+        "text": "\\(\\begin{pmatrix}-1 & 0 & 0\\\\0 & -1 & 0\\\\0 & 0 & 1\\end{pmatrix}\\)",
+        "correctness": "incorrect"
+      },
+      {
+        "text": "\\(\\begin{pmatrix}-1 & 0 & 0\\\\0 & 1 & 0\\\\0 & 0 & -1\\end{pmatrix}\\)",
+        "correctness": "incorrect"
+      },
+      {
+        "text": "\\(\\begin{pmatrix}-1 & 0 & 0\\\\0 & -1 & 0\\\\0 & 0 & -1\\end{pmatrix}\\)",
+        "correctness": "correct"
+      }
+    ]
+  },
+  {
+    "number": 213,
+    "text": "Oś śrubowa \\(4_3\\) jest równoległa do osi \\(z\\). Parametr komórki \\(c = 20.4\\,\\text{\\AA}\\). Jaki jest skok tej osi (w \\AA)?",
+    "answers": [
+      { "text": "5.1 \\AA", "correctness": "correct" },
+      { "text": "10.2 \\AA", "correctness": "incorrect" },
+      { "text": "15.3 \\AA", "correctness": "incorrect" },
+      { "text": "20.4 \\AA", "correctness": "incorrect" }
+    ]
   }
 ]
+
+
  
