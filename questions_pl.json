@@ -634,8 +634,8 @@
     "text": "Która z poniższych osi śrubowych jest lewoskrętna?",
     "answers": [
       { "text": "2(1)", "correctness": "incorrect" },
-      { "text": "3(2)", "correctness": "incorrect" },
-      { "text": "4(2)", "correctness": "correct" },
+      { "text": "3(2)", "correctness": "correct" },
+      { "text": "4(2)", "correctness": "incorrect" },
       { "text": "6(2)", "correctness": "incorrect" }
     ]
   },
