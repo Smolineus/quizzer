@@ -2114,19 +2114,19 @@
     "text": "Wskaż macierz w układzie rombowym, która odpowiada operacji środka symetrii (inwersji):",
     "answers": [
       {
-        "text": "\\(\\begin{pmatrix}1 & 0 & 0\\\\0 & 1 & 0\\\\0 & 0 & 1\\end{pmatrix}\\)",
+        "text": "1 & 0 & 0\\\\0 & 1 & 0\\\\0 & 0 & 1)",
         "correctness": "incorrect"
       },
       {
-        "text": "\\(\\begin{pmatrix}-1 & 0 & 0\\\\0 & -1 & 0\\\\0 & 0 & 1\\end{pmatrix}\\)",
+        "text": "-1 & 0 & 0\\\\0 & -1 & 0\\\\0 & 0 & 1\\)",
         "correctness": "incorrect"
       },
       {
-        "text": "\\(\\begin{pmatrix}-1 & 0 & 0\\\\0 & 1 & 0\\\\0 & 0 & -1\\end{pmatrix}\\)",
+        "text": "-1 & 0 & 0\\\\0 & 1 & 0\\\\0 & 0 & -1)",
         "correctness": "incorrect"
       },
       {
-        "text": "\\(\\begin{pmatrix}-1 & 0 & 0\\\\0 & -1 & 0\\\\0 & 0 & -1\\end{pmatrix}\\)",
+        "text": "-1 & 0 & 0\\\\0 & -1 & 0\\\\0 & 0 & -1\\)",
         "correctness": "correct"
       }
     ]
