@@ -1655,8 +1655,8 @@
     "answers": [
       { "text": "15%", "correctness": "incorrect" },
       { "text": "33%", "correctness": "incorrect" },
-      { "text": "50%", "correctness": "correct" },
-      { "text": "66%", "correctness": "incorrect" }
+      { "text": "50%", "correctness": "incorrect" },
+      { "text": "66%", "correctness": "correct" }
     ]
   },
   {
