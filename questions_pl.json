@@ -154,8 +154,8 @@
     "text": "Typowe pojedyncze wiązanie C–C w cząsteczkach organicznych ma długość:",
     "answers": [
       { "text": "3.34 E-10 m", "correctness": "incorrect" },
-      { "text": "1.54 E-8 m", "correctness": "correct" },
-      { "text": "1.52 E-10 m", "correctness": "incorrect" },
+      { "text": "1.54 E-8 m", "correctness": "incorrect" },
+      { "text": "1.52 E-10 m", "correctness": "correct" },
       { "text": "1.08 E-10 m", "correctness": "incorrect" }
     ]
   },
