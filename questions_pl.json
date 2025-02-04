@@ -2101,7 +2101,7 @@
   },
   {
     "number": 211,
-    "text": "Czterokrotna oś inwersyjna (\\(\\bar{4}\\)) przekształca dane punkty w sposób:",
+    "text": "Czterokrotna oś inwersyjna przekształca dane punkty w sposób:",
     "answers": [
       { "text": "obrót o 60° i odbicie w płaszczyźnie prostopadłej", "correctness": "incorrect" },
       { "text": "obrót o 90° i przekształcenie przez środek symetrii", "correctness": "correct" },
