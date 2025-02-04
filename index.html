@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Cybersecurity Quiz</title>
+  <title>Smol Quiz</title>
 
   <!-- Favicon Links -->
   <link rel="icon" href="favicon.ico" type="image/x-icon" />
@@ -18,47 +18,50 @@
       padding: 0;
     }
     :root {
-      --bg-color: #f2f2f5;
-      --text-color: #333;
-      --card-bg: #fff;
-      --card-shadow: rgba(0,0,0,0.1);
-      --btn-bg: #3498db;
-      --btn-hover: #2980b9;
-      --modal-overlay: rgba(0,0,0,0.6);
-      --border-color: #ddd;
-      --correct-color: #2e7d32;
-      --incorrect-color: #c62828;
-      --maybe-color: #f1c40f;
-      --rating-btn-bg: #7f8c8d;
-      --like-active: #16a085;
-      --dislike-active: #c0392b;
-      --explain-btn-bg: #9b59b6;
-      --explain-btn-hover: #8e44ad;
-      --checkbox-border: #cbd5e1;
+      /* Light mode pink-ish theme */
+      --bg-color: #ffeef8;           /* very light pink background */
+      --text-color: #333;            /* dark text for contrast */
+      --card-bg: #fff;               /* white cards for clarity */
+      --card-shadow: rgba(255,105,180,0.2);  /* subtle hot-pink shadow */
+      --btn-bg: #ff69b4;             /* hot pink */
+      --btn-hover: #ff1493;          /* deeper pink on hover */
+      --modal-overlay: rgba(255,182,193,0.6);  /* light pink overlay */
+      --border-color: #ffc0cb;       /* pastel pink borders */
+      --correct-color: #2e7d32;      /* green (kept as is) */
+      --incorrect-color: #c62828;    /* red (kept as is) */
+      --maybe-color: #f1c40f;        /* yellow (kept as is) */
+      --rating-btn-bg: #ff69b4;       /* hot pink for rating buttons */
+      --like-active: #16a085;        /* green for like (unchanged) */
+      --dislike-active: #c0392b;     /* red for dislike (unchanged) */
+      --explain-btn-bg: #ff85a1;      /* lighter pink for the explain button */
+      --explain-btn-hover: #ff5e7e;   /* darker pink when hovering */
+      --checkbox-border: #ffc0cb;
       --checkbox-bg: #fff;
-      --checkbox-checked-bg: #3498db;
+      --checkbox-checked-bg: #ff69b4;
     }
 
     [data-theme="dark"] {
-      --bg-color: #1a1a1a;
-      --text-color: #e0e0e0;
-      --card-bg: #2d2d2d;
-      --card-shadow: rgba(0,0,0,0.3);
-      --btn-bg: #2980b9;
-      --btn-hover: #3498db;
-      --modal-overlay: rgba(0,0,0,0.8);
-      --border-color: #404040;
+      /* Dark mode pink-ish theme */
+      --bg-color: #330022;           /* deep dark pink background */
+      --text-color: #ffeef8;         /* light text */
+      --card-bg: #4d0033;            /* dark card background */
+      --card-shadow: rgba(255,105,180,0.4);
+      --btn-bg: #ff1493;
+      --btn-hover: #ff69b4;
+      --modal-overlay: rgba(255,182,193,0.8);
+      --border-color: #993366;
       --correct-color: #4caf50;
       --incorrect-color: #f44336;
       --maybe-color: #ffd700;
-      --rating-btn-bg: #4a4a4a;
+      --rating-btn-bg: #ff1493;
       --like-active: #2ecc71;
       --dislike-active: #e74c3c;
-      --explain-btn-bg: #8e44ad;
-      --explain-btn-hover: #9b59b6;
-      --checkbox-border: #4a5568;
-      --checkbox-bg: #2d2d2d;
-      --checkbox-checked-bg: #2980b9;
+      --explain-btn-bg: #ff5e7e;
+      --explain-btn-hover: #ff1493;
+      --checkbox-border: #993366;
+      --checkbox-bg: #4d0033;
+      --checkbox-checked-bg: #ff1493;
+  
     }
     body {
       font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -344,11 +347,11 @@
     }
     /* Active Like/Dislike styles */
     .liked {
-      background:var(--like-active) !important; /* Green */
+      background: var(--like-active) !important; /* Green */
       cursor: not-allowed;
     }
     .disliked {
-      background: var(--dislike-active)  !important; /* Red */
+      background: var(--dislike-active) !important; /* Red */
       cursor: not-allowed;
     }
     /* Disabled buttons should not change color */
@@ -421,7 +424,6 @@
       margin-left: 10px; /* Adjust the value as needed for desired spacing */
     }
 
-
     /* Reduce vertical space between answers */
     .answers li {
       margin: 4px 0; /* Reduced from 8px 0 to 4px 0 */
@@ -440,7 +442,7 @@
     </button>
     <!-- Landing screen -->
     <div id="landingScreen">
-      <h1>Cybersecurity Quiz</h1>
+      <h1>Smol Quiz</h1>
       <p>Test yourself with randomly shuffled questions and track your score.</p>
       <p>
         <span style="color: #2e7d32;"><b>Green</b></span><b> = Correct,</b> 
@@ -463,9 +465,8 @@
 
       <!-- New Mode Buttons -->
       <div id="modeButtons">
-        <button id="startQuizBtn">Old Mode</button>
-        <button id="lecturesModeBtn">Lectures Mode</button>
-        <button id="labModeBtn">Lab Mode</button>
+        <button id="startQuizBtn">All Mode</button>
+        <button id="lecturesModeBtn">20-mode</button>
       </div>
     </div>
 
@@ -519,9 +520,9 @@
     let currentQuestionIndex = 0;
     let totalScore = 0.0;           // Our sum of partial credits
     let hasChecked = false;         // Track whether user has clicked "Check"
-    let selectedLanguage = 'en';    // 'en' or 'pl' (default to 'en')
+    let selectedLanguage = 'pl';    // Default set to Polish
     let enableDropout = false;      // NEW: read from the checkbox
-    let mode = 'normal';            // 'normal', 'lectures', or 'lab'
+    let mode = 'all';             // 'all' (single question view) or '20-mode' (bulk view)
 
     // We store the subset of answers shown to the user so we can score properly
     let currentRenderedAnswers = [];
@@ -535,7 +536,6 @@
 
     const startQuizBtn = document.getElementById('startQuizBtn');
     const lecturesModeBtn = document.getElementById('lecturesModeBtn');
-    const labModeBtn = document.getElementById('labModeBtn');
     const closeWarningBtn = document.getElementById('closeWarningBtn');
     
     const scoreDisplay = document.getElementById('scoreDisplay');
@@ -566,8 +566,7 @@
     // ------------------------------------------------
     // NEW: using Counter API to track events
     // ------------------------------------------------
-    const namespace = 'biologiastrukturalnasmol';  // Unique namespace
-    
+    const namespace = 'putSmolQuiz';  // Updated namespace
 
     /**
      * trackEvent(action, details)
@@ -676,28 +675,22 @@
     // Initialize Default Language
     // -----------------------
     window.addEventListener('DOMContentLoaded', () => {
-      // Set English as default
-      selectLanguage('en');
+      // Set Polish as default
+      selectLanguage('pl');
     });
 
     // -----------------------
     // Start Quiz Flow
     // -----------------------
-    // Handler for Normal Mode
+    // Handler for All Mode (single question view)
     startQuizBtn.addEventListener('click', () => {
-      mode = 'normal';
+      mode = 'all';
       initiateQuiz();
     });
 
-    // Handler for Lectures Mode
+    // Handler for 20-mode (all questions on one page)
     lecturesModeBtn.addEventListener('click', () => {
-      mode = 'lectures';
-      initiateQuiz();
-    });
-
-    // Handler for Lab Mode
-    labModeBtn.addEventListener('click', () => {
-      mode = 'lab';
+      mode = '20-mode';
       initiateQuiz();
     });
 
@@ -730,12 +723,10 @@
         .then(response => response.json())
         .then(data => {
           // Filter questions based on mode
-          if (selectedMode === 'lectures') {
+          if (selectedMode === '20-mode') {
             questions = data.filter(q => q.number <= 400);
-          } else if (selectedMode === 'lab') {
-            questions = data.filter(q => q.number >= 1000);
-          } else {
-            questions = data; // Normal mode
+          } else if (selectedMode === 'all') {
+            questions = data;
           }
 
           // Shuffle the filtered questions
@@ -753,7 +744,7 @@
           hasChecked = false;
           updateScoreDisplay();
 
-          if (selectedMode === 'normal') {
+          if (selectedMode === 'all') {
             // Show single question view
             showQuestion();
           } else {
@@ -768,7 +759,7 @@
     }
 
     // -----------------------
-    // Show a Single Question (Normal Mode)
+    // Show a Single Question (All Mode)
     // -----------------------
     function showQuestion() {
       // Reset hasChecked for this new question
@@ -833,7 +824,7 @@
     }
 
     // -----------------------
-    // Show All Questions (Lectures & Lab Modes)
+    // Show All Questions (20-mode)
     // -----------------------
     function showAllQuestions() {
       hasChecked = false;
@@ -914,13 +905,13 @@
     // -----------------------
     singleActionBtn.addEventListener('click', () => {
       if (!hasChecked) {
-        if (mode === 'normal') {
-          checkAnswersNormal();
+        if (mode === 'all') {
+          checkAnswersAll();
         } else {
           checkAnswersBulk();
         }
       } else {
-        if (mode === 'normal') {
+        if (mode === 'all') {
           nextQuestion();
         } else {
           submitBulkAnswers();
@@ -929,9 +920,9 @@
     });
 
     // -----------------------
-    // Check Answers for Normal Mode
+    // Check Answers for All Mode (Single Question)
     // -----------------------
-    function checkAnswersNormal() {
+    function checkAnswersAll() {
       const question = questions[currentQuestionIndex];
       const selectedCheckboxes = document.querySelectorAll('#answersList input[type="checkbox"]:checked');
       const allCheckboxes = document.querySelectorAll('#answersList input[type="checkbox"]');
@@ -995,19 +986,17 @@
       hasChecked = true;
       singleActionBtn.textContent = "Next question";
       
-      // Show the "Explain with ChatGPT" button and rating area only in Normal Mode
-      if (mode === 'normal') {
-        explainBtn.style.display = 'inline-block';
-        rateAnswersContainer.style.display = 'block';
-        // Update Like/Dislike counts so user sees the latest
-        updateLikeDislikeCounts(question.number);
-      }
+      // Show the "Explain with ChatGPT" button and rating area only in All Mode
+      explainBtn.style.display = 'inline-block';
+      rateAnswersContainer.style.display = 'block';
+      // Update Like/Dislike counts so user sees the latest
+      updateLikeDislikeCounts(question.number);
 
       updateScoreDisplay();
     }
 
     // -----------------------
-    // Check Answers for Lectures & Lab Modes
+    // Check Answers for 20-mode (Bulk)
     // -----------------------
     function checkAnswersBulk() {
       let totalCorrectPicked = 0;
@@ -1077,17 +1066,15 @@
       hasChecked = true;
       singleActionBtn.textContent = "Submit Answers";
       
-      // Show the "Explain with ChatGPT" button only in Normal Mode
-      if (mode === 'normal') {
-        explainBtn.style.display = 'inline-block';
-        rateAnswersContainer.style.display = 'block';
-      }
+      // Show the "Explain with ChatGPT" button only in All Mode
+      explainBtn.style.display = 'inline-block';
+      rateAnswersContainer.style.display = 'block';
 
       updateScoreDisplay();
     }
 
     // -----------------------
-    // Next Question (Normal Mode)
+    // Next Question (All Mode)
     // -----------------------
     function nextQuestion() {
       currentQuestionIndex++;
@@ -1099,7 +1086,7 @@
     }
 
     // -----------------------
-    // Submit Bulk Answers (Lectures & Lab Modes)
+    // Submit Bulk Answers (20-mode)
     // -----------------------
     function submitBulkAnswers() {
       showEndScreen();
@@ -1121,7 +1108,7 @@
     // -----------------------
     function updateScoreDisplay() {
       let completedQuestions;
-      if (mode === 'normal') {
+      if (mode === 'all') {
         completedQuestions = hasChecked ? (currentQuestionIndex + 1) : currentQuestionIndex;
       } else {
         completedQuestions = hasChecked ? questions.length : 0;
@@ -1134,7 +1121,7 @@
     // -----------------------
     shareResultBtn.addEventListener('click', () => {
       const finalScore = `${totalScore === Math.floor(totalScore) ? Math.floor(totalScore) : totalScore.toFixed(2)}/${questions.length}`;
-      const shareText = `I just scored ${finalScore} on the Cybersecurity quiz! Come and test your knowledge too: https://dromaniv.github.io/quizzer/`;
+      const shareText = `I just scored ${finalScore} on the Smol quiz! Come and test your knowledge too: https://dromaniv.github.io/quizzer/`;
 
       if (navigator.share) {
         navigator.share({ text: shareText })
@@ -1148,7 +1135,7 @@
     // Explain with ChatGPT
     // -----------------------
     explainBtn.addEventListener('click', () => {
-      if (mode === 'normal') {
+      if (mode === 'all') {
         const question = questions[currentQuestionIndex];
         
         let explanationPrompt = `Please verify the accuracy of the answers and provide a brief explanation for each.\n\nQuestion: ${question.text}\nAnswers:\n`;
@@ -1195,7 +1182,7 @@
     // -----------------------
     likeBtn.addEventListener('click', () => {
       if (likeBtn.disabled) return; // Prevent multiple clicks
-      if (mode === 'normal') {
+      if (mode === 'all') {
         const question = questions[currentQuestionIndex];
         trackEvent('LIKE', { questionNumber: question.number });
       } else {
@@ -1212,7 +1199,7 @@
 
     dislikeBtn.addEventListener('click', () => {
       if (dislikeBtn.disabled) return; // Prevent multiple clicks
-      if (mode === 'normal') {
+      if (mode === 'all') {
         const question = questions[currentQuestionIndex];
         trackEvent('DISLIKE', { questionNumber: question.number });
       } else {
@@ -1230,7 +1217,6 @@
   <script>
     const themeToggle = document.getElementById('themeToggle');
     
- 
     const getPreferredTheme = () => {
       const savedTheme = localStorage.getItem('theme');
       if (savedTheme) {
@@ -1239,31 +1225,25 @@
       return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
     };
 
-    
     const applyTheme = (theme) => {
       document.body.setAttribute('data-theme', theme);
       localStorage.setItem('theme', theme);
       themeToggle.innerHTML = theme === 'dark' ? '☀️' : '🌙';
     };
 
-    
     applyTheme(getPreferredTheme());
 
-  
     themeToggle.addEventListener('click', () => {
       const currentTheme = document.body.getAttribute('data-theme');
       const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
       applyTheme(newTheme);
     });
 
-
     window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', (e) => {
       if (!localStorage.getItem('theme')) {
         applyTheme(e.matches ? 'dark' : 'light');
       }
     });
-
-
   </script>
 </body>
 </html>
