@@ -169,6 +169,16 @@
       { "text": "alanina", "correctness": "incorrect" }
     ]
   },
+   {
+    "number": 18,
+    "text": "Powtarzające się jednostki peptydowe charakteryzujące się kątami phi≈ -120°, psi≈ 115° utworzą:",
+    "answers": [
+      { "text": "równoległy łańcuch beta", "correctness": "correct" },
+      { "text": "nie utworzą żadnej struktury drugorzędowej", "correctness": "incorrect" },
+      { "text": "helisę alfa", "correctness": "incorrect" },
+      { "text": "antyrównoległy łańcuch beta", "correctness": "incorrect" }
+    ]
+  },
   {
     "number": 19,
     "text": "Który z poniższych aminokwasów zawiera siarkę?",
@@ -177,6 +187,16 @@
       { "text": "arginina", "correctness": "incorrect" },
       { "text": "tryptofan", "correctness": "incorrect" },
       { "text": "cysteina", "correctness": "correct" }
+    ]
+  },
+   {
+    "number": 20,
+    "text": "Reszta glicyny w łańcuchu polipeptydowym występuje w konfiguracji:",
+    "answers": [
+      { "text": "L i D", "correctness": "incorrect" },
+      { "text": "D", "correctness": "incorrect" },
+      { "text": "L", "correctness": "incorrect" },
+      { "text": "żadna z odpowiedzi nie jest prawidłowa", "correctness": "correct" }
     ]
   },
   {
@@ -189,14 +209,24 @@
       { "text": "(-1  0  0; 0  -1  0; 0  0  -1)", "correctness": "correct" }
     ]
   },
-  {
-    "number": 23,
-    "text": "Powtarzające się motywy kątów torsyjnych łańcucha głównego oraz powtarzające się motywy wiązań wodorowych charakteryzują:",
+    {
+    "number": 22,
+    "text": "W helisie 3.613 grupa C=O reszty n tworzy wiązanie wodorowe N-H...O=C z atomem N o numerze:",
     "answers": [
       { "text": "struktury drugorzędowe", "correctness": "correct" },
       { "text": "nie ma takiej sytuacji", "correctness": "incorrect" },
       { "text": "tylko helisy α", "correctness": "incorrect" },
       { "text": "tylko arkusze β", "correctness": "incorrect" }
+    ]
+  },
+  {
+    "number": 23,
+    "text": "Powtarzające się motywy kątów torsyjnych łańcucha głównego oraz powtarzające się motywy wiązań wodorowych charakteryzują:",
+    "answers": [
+      { "text": "n+4", "correctness": "correct" },
+      { "text": "n+5", "correctness": "incorrect" },
+      { "text": "n+2", "correctness": "incorrect" },
+      { "text": "n+3", "correctness": "incorrect" }
     ]
   },
   {
@@ -228,15 +258,25 @@
       { "text": "liczbę reszt aminokwasowych przypadających na jeden zwój helisy", "correctness": "correct" },
       { "text": "długość wiązania wodorowego N–H...O=C (w Å)", "correctness": "incorrect" }
     ]
-  },
+  },  
   {
-    "number": 28,
+    "number": 27,
     "text": "Wybierz najmniejszy aminokwas:",
     "answers": [
       { "text": "glicyna", "correctness": "correct" },
       { "text": "walina", "correctness": "incorrect" },
       { "text": "prolina", "correctness": "incorrect" },
       { "text": "alanina", "correctness": "incorrect" }
+    ]
+  },
+  {
+    "number": 28,
+    "text": "Wybierz największy aminokwas (najwięcej atomów niewodorowych)",
+    "answers": [
+      { "text": "tyrozyna", "correctness": "incorrect" },
+      { "text": "metionina", "correctness": "incorrect" },
+      { "text": "arginina", "correctness": "incorrect" },
+      { "text": "tryptofan", "correctness": "correct" }
     ]
   },
   {
@@ -307,6 +347,16 @@
       { "text": "dwukrotna oś symetrii (oś 2) wzdłuż osi z", "correctness": "correct" },
       { "text": "płaszczyzna lustrzana (m) prostopadła do x", "correctness": "incorrect" },
       { "text": "płaszczyzna lustrzana (m) prostopadła do y", "correctness": "incorrect" }
+    ]
+  },
+    {
+    "number": 52,
+    "text": "Na wykresie Ramachandrana obszar odpowiadający najbardziej optymalnym kątom torsyjnym arkusza β znajduje się:",
+    "answers": [
+      { "text": "w prawej dolnej ćwiartce wykresu", "correctness": "incorrect" },
+      { "text": "w lewej dolnej ćwiartce wykresu", "correctness": "incorrect" },
+      { "text": "w lewej górnej ćwiartce wykresu", "correctness": "correct" },
+      { "text": "w prawej górnej ćwiartce wykresu", "correctness": "incorrect" }
     ]
   },
   {
