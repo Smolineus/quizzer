@@ -703,10 +703,10 @@
     "number": 71,
     "text": "Które stwierdzenie o dyfrakcji promieni X na kryształach jest fałszywe?",
     "answers": [
-      { "text": "Informacja o strukturze jest zakodowana w intensywnościach refleksów", "correctness": "correct" },
-      { "text": "Promienie X rozpraszają się na elektronach", "correctness": "correct" },
-      { "text": "Liczba refleksów jest proporcjonalna do objętości komórki", "correctness": "correct" },
-      { "text": "Liczba refleksów jest odwrotnie proporcjonalna do rozmiaru kryształu", "correctness": "incorrect" }
+      { "text": "Informacja o strukturze jest zakodowana w intensywnościach refleksów", "correctness": "incorrect" },
+      { "text": "Promienie X rozpraszają się na elektronach", "correctness": "incorrect" },
+      { "text": "Liczba refleksów jest proporcjonalna do objętości komórki", "correctness": "incorrect" },
+      { "text": "Liczba refleksów jest odwrotnie proporcjonalna do rozmiaru kryształu", "correctness": "correct" }
     ]
   },
   {
