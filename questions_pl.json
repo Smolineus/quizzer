@@ -174,9 +174,9 @@
     "text": "Do jakiego układu krystalograficznego należy grupa przestrzenna P212121?",
     "answers": [
       { "text": "trygonalnego", "correctness": "incorrect" },
-      { "text": "rombowego", "correctness": "incorrect" },
+      { "text": "rombowego", "correctness": "correct" },
       { "text": "jednoskośnego", "correctness": "incorrect" },
-      { "text": "trójskośnego", "correctness": "correct" }
+      { "text": "trójskośnego", "correctness": "incorrect" }
     ]
   },
   {
@@ -2133,12 +2133,12 @@
   },
   {
     "number": 213,
-    "text": "Oś śrubowa \\(4_3\\) jest równoległa do osi \\(z\\). Parametr komórki \\(c = 20.4\\,\\text{\\AA}\\). Jaki jest skok tej osi (w \\AA)?",
+    "text": "Oś śrubowa 4(3) jest równoległa do osi z. Parametr komórki c = 20.4A. Jaki jest skok tej osi A?",
     "answers": [
-      { "text": "5.1 \\AA", "correctness": "correct" },
-      { "text": "10.2 \\AA", "correctness": "incorrect" },
-      { "text": "15.3 \\AA", "correctness": "incorrect" },
-      { "text": "20.4 \\AA", "correctness": "incorrect" }
+      { "text": "5.1A", "correctness": "incorrect" },
+      { "text": "10.2A", "correctness": "incorrect" },
+      { "text": "15.3A", "correctness": "correct" },
+      { "text": "20.4A", "correctness": "incorrect" }
     ]
   }
 ]
