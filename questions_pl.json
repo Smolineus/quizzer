@@ -118,6 +118,334 @@
       { "text": "a, c", "correctness": "incorrect" },
       { "text": "tylko do a", "correctness": "incorrect" }
     ]
-  }
-]
+  },
+  {
+    "number": 13,
+    "text": "Jaki jest skok (pitch, w Å) lewoskrętnej podwójnej helisy Z-DNA?",
+    "answers": [
+      { "text": "26,0", "correctness": "incorrect" },
+      { "text": "28,2", "correctness": "incorrect" },
+      { "text": "33,4", "correctness": "incorrect" },
+      { "text": "45,0", "correctness": "correct" }
+    ]
+  },
+  {
+    "number": 14,
+    "text": "W której formie dwuniciowego DNA możliwe są wiązania glikozydowe w konformacji syn?",
+    "answers": [
+      { "text": "A-DNA", "correctness": "incorrect" },
+      { "text": "B-DNA", "correctness": "incorrect" },
+      { "text": "Z-DNA", "correctness": "correct" },
+      { "text": "nie są możliwe w żadnym dwuniciowym DNA", "correctness": "incorrect" }
+    ]
+  },
+  {
+    "number": 15,
+    "text": "Znajdź fałszywe stwierdzenie:",
+    "answers": [
+      { "text": "wszystkie aminokwasy występujące w białkach są L stereoizomerami", "correctness": "correct" },
+      { "text": "niektóre naturalne aminokwasy zawierają siarkę", "correctness": "incorrect" },
+      { "text": "wiązanie peptydowe zwykle przyjmuje formę trans", "correctness": "incorrect" },
+      { "text": "niektóre aminokwasy mają aromatyczne łańcuchy boczne", "correctness": "incorrect" }
+    ]
+  },
+  {
+    "number": 16,
+    "text": "Typowe pojedyncze wiązanie C–C w cząsteczkach organicznych ma długość:",
+    "answers": [
+      { "text": "3.34 E-10 m", "correctness": "incorrect" },
+      { "text": "1.54 E-8 m", "correctness": "correct" },
+      { "text": "1.52 E-10 m", "correctness": "incorrect" },
+      { "text": "1.08 E-10 m", "correctness": "incorrect" }
+    ]
+  },
+  {
+    "number": 17,
+    "text": "Wybierz najmniejszy aminokwas:",
+    "answers": [
+      { "text": "glicyna", "correctness": "correct" },
+      { "text": "walina", "correctness": "incorrect" },
+      { "text": "prolina", "correctness": "incorrect" },
+      { "text": "alanina", "correctness": "incorrect" }
+    ]
+  },
+  {
+    "number": 18,
+    "text": "Do jakiego układu krystalograficznego należy grupa przestrzenna P212121?",
+    "answers": [
+      { "text": "trygonalnego", "correctness": "incorrect" },
+      { "text": "rombowego", "correctness": "incorrect" },
+      { "text": "jednoskośnego", "correctness": "incorrect" },
+      { "text": "trójskośnego", "correctness": "correct" }
+    ]
+  },
+  {
+    "number": 19,
+    "text": "Który z poniższych aminokwasów zawiera siarkę?",
+    "answers": [
+      { "text": "seryna", "correctness": "incorrect" },
+      { "text": "arginina", "correctness": "incorrect" },
+      { "text": "tryptofan", "correctness": "incorrect" },
+      { "text": "cysteina", "correctness": "correct" }
+    ]
+  },
+  {
+    "number": 20,
+    "text": "Jakie atomy definiują kąt omega w łańcuchu polipeptydowym?",
+    "answers": [
+      { "text": "N–Cα–CO–N", "correctness": "correct" },
+      { "text": "CO–N–Cα–Cb", "correctness": "incorrect" },
+      { "text": "CO–N–Cα–CO", "correctness": "incorrect" },
+      { "text": "Ca–CO–N–Ca", "correctness": "incorrect" }
+    ]
+  },
+  {
+    "number": 21,
+    "text": "Wskaż macierz, która w układzie rombowym odpowiada operacji środka symetrii (inwersja):",
+    "answers": [
+      { "text": "(1  0  0; 0  1  0; 0  0  1)", "correctness": "incorrect" },
+      { "text": "(-1  0  0; 0  -1  0; 0  0  1)", "correctness": "incorrect" },
+      { "text": "(-1  0  0; 0  1  0; 0  0  -1)", "correctness": "incorrect" },
+      { "text": "(-1  0  0; 0  -1  0; 0  0  -1)", "correctness": "correct" }
+    ]
+  },
+  {
+    "number": 22,
+    "text": "Do wyznaczenia struktury drugorzędowej białka wystarcza znajomość:",
+    "answers": [
+      { "text": "długości wiązań", "correctness": "incorrect" },
+      { "text": "długości wiązań i kątów walencyjnych", "correctness": "incorrect" },
+      { "text": "długości wiązań, kątów walencyjnych i kątów torsyjnych", "correctness": "correct" },
+      { "text": "znaków kątów torsyjnych", "correctness": "incorrect" }
+    ]
+  },
+  {
+    "number": 23,
+    "text": "Powtarzające się motywy kątów torsyjnych łańcucha głównego oraz powtarzające się motywy wiązań wodorowych charakteryzują:",
+    "answers": [
+      { "text": "struktury drugorzędowe", "correctness": "correct" },
+      { "text": "nie ma takiej sytuacji", "correctness": "incorrect" },
+      { "text": "tylko helisy α", "correctness": "incorrect" },
+      { "text": "tylko arkusze β", "correctness": "incorrect" }
+    ]
+  },
+  {
+    "number": 24,
+    "text": "Reguła \"CORN\" dotyczy:",
+    "answers": [
+      { "text": "absolutnej konfiguracji aminokwasów", "correctness": "correct" },
+      { "text": "kierunkowości łańcucha peptydowego", "correctness": "incorrect" },
+      { "text": "struktur białek wyizolowanych z kukurydzy", "correctness": "incorrect" },
+      { "text": "izomerii wiązania peptydowego", "correctness": "incorrect" }
+    ]
+  },
+  {
+    "number": 25,
+    "text": "Typowa odległość N…O w wiązaniu wodorowym N–H…O=C wynosi około:",
+    "answers": [
+      { "text": "3,6 Å", "correctness": "incorrect" },
+      { "text": "1,0 Å", "correctness": "incorrect" },
+      { "text": "1,5 Å", "correctness": "incorrect" },
+      { "text": "2,7 Å", "correctness": "correct" }
+    ]
+  },
+  {
+    "number": 26,
+    "text": "Liczba 3.6 w symbolu 3.6(13) helisy α oznacza:",
+    "answers": [
+      { "text": "odległość (w Å) między kolejnymi atomami Cα", "correctness": "incorrect" },
+      { "text": "skok helisy (w Å)", "correctness": "incorrect" },
+      { "text": "liczbę reszt aminokwasowych przypadających na jeden zwój helisy", "correctness": "correct" },
+      { "text": "długość wiązania wodorowego N–H...O=C (w Å)", "correctness": "incorrect" }
+    ]
+  },
+  {
+    "number": 27,
+    "text": "Typowe pojedyncze wiązanie C–C w cząsteczkach organicznych ma długość:",
+    "answers": [
+      { "text": "3.34 E-10 m", "correctness": "incorrect" },
+      { "text": "1.54 E-8 m", "correctness": "correct" },
+      { "text": "1.52 E-10 m", "correctness": "incorrect" },
+      { "text": "1.08 E-10 m", "correctness": "incorrect" }
+    ]
+  },
+  {
+    "number": 28,
+    "text": "Wybierz najmniejszy aminokwas:",
+    "answers": [
+      { "text": "glicyna", "correctness": "correct" },
+      { "text": "walina", "correctness": "incorrect" },
+      { "text": "prolina", "correctness": "incorrect" },
+      { "text": "alanina", "correctness": "incorrect" }
+    ]
+  },
+  {
+    "number": 29,
+    "text": "Do jakiego układu krystalograficznego należy grupa przestrzenna P212121?",
+    "answers": [
+      { "text": "trygonalnego", "correctness": "incorrect" },
+      { "text": "rombowego", "correctness": "incorrect" },
+      { "text": "jednoskośnego", "correctness": "incorrect" },
+      { "text": "trójskośnego", "correctness": "correct" }
+    ]
+  },
+  {
+    "number": 30,
+    "text": "Który z poniższych aminokwasów zawiera siarkę?",
+    "answers": [
+      { "text": "seryna", "correctness": "incorrect" },
+      { "text": "arginina", "correctness": "incorrect" },
+      { "text": "tryptofan", "correctness": "incorrect" },
+      { "text": "cysteina", "correctness": "correct" }
+    ]
+  },
+  {
+    "number": 31,
+    "text": "Jakie atomy definiują kąt omega w łańcuchu polipeptydowym?",
+    "answers": [
+      { "text": "N–Cα–CO–N", "correctness": "correct" },
+      { "text": "CO–N–Cα–Cb", "correctness": "incorrect" },
+      { "text": "CO–N–Cα–CO", "correctness": "incorrect" },
+      { "text": "Ca–CO–N–Ca", "correctness": "incorrect" }
+    ]
+  },
+  {
+    "number": 32,
+    "text": "Wskaż macierz, która w układzie rombowym odpowiada operacji środka symetrii (inwersja):",
+    "answers": [
+      { "text": "(1 0 0; 0 1 0; 0 0 1)", "correctness": "incorrect" },
+      { "text": "(-1 0 0; 0 -1 0; 0 0 1)", "correctness": "incorrect" },
+      { "text": "(-1 0 0; 0 1 0; 0 0 -1)", "correctness": "incorrect" },
+      { "text": "(-1 0 0; 0 -1 0; 0 0 -1)", "correctness": "correct" }
+    ]
+  },
+  {
+    "number": 33,
+    "text": "Do wyznaczenia struktury drugorzędowej białka wystarcza znajomość:",
+    "answers": [
+      { "text": "długości wiązań", "correctness": "incorrect" },
+      { "text": "długości wiązań i kątów walencyjnych", "correctness": "incorrect" },
+      { "text": "długości wiązań, kątów walencyjnych i kątów torsyjnych", "correctness": "correct" },
+      { "text": "znaków kątów torsyjnych", "correctness": "incorrect" }
+    ]
+  },
+  {
+    "number": 34,
+    "text": "Powtarzające się motywy kątów torsyjnych łańcucha głównego oraz powtarzające się motywy wiązań wodorowych charakteryzują:",
+    "answers": [
+      { "text": "struktury drugorzędowe", "correctness": "correct" },
+      { "text": "nie ma takiej sytuacji", "correctness": "incorrect" },
+      { "text": "tylko helisy α", "correctness": "incorrect" },
+      { "text": "tylko arkusze β", "correctness": "incorrect" }
+    ]
+  },
+  {
+    "number": 35,
+    "text": "Reguła \"CORN\" dotyczy:",
+    "answers": [
+      { "text": "absolutnej konfiguracji aminokwasów", "correctness": "correct" },
+      { "text": "kierunkowości łańcucha peptydowego", "correctness": "incorrect" },
+      { "text": "struktur białek wyizolowanych z kukurydzy", "correctness": "incorrect" },
+      { "text": "izomerii wiązania peptydowego", "correctness": "incorrect" }
+    ]
+  },
+  {
+    "number": 36,
+    "text": "Typowa odległość N…O w wiązaniu wodorowym N–H…O=C wynosi około:",
+    "answers": [
+      { "text": "3,6 Å", "correctness": "incorrect" },
+      { "text": "1,0 Å", "correctness": "incorrect" },
+      { "text": "1,5 Å", "correctness": "incorrect" },
+      { "text": "2,7 Å", "correctness": "correct" }
+    ]
+  },
+  {
+    "number": 37,
+    "text": "Liczba 3.6 w symbolu 3.6(13) helisy α oznacza:",
+    "answers": [
+      { "text": "odległość (w Å) między kolejnymi atomami Cα", "correctness": "incorrect" },
+      { "text": "skok helisy (w Å)", "correctness": "incorrect" },
+      { "text": "liczbę reszt aminokwasowych przypadających na jeden zwój helisy", "correctness": "correct" },
+      { "text": "długość wiązania wodorowego N–H...O=C (w Å)", "correctness": "incorrect" }
+    ]
+  },
+  {
+    "number": 38,
+    "text": "Typowe pojedyncze wiązanie C–C w cząsteczkach organicznych ma długość:",
+    "answers": [
+      { "text": "3.34 E-10 m", "correctness": "incorrect" },
+      { "text": "1.54 E-8 m", "correctness": "correct" },
+      { "text": "1.52 E-10 m", "correctness": "incorrect" },
+      { "text": "1.08 E-10 m", "correctness": "incorrect" }
+    ]
+  },
+  {
+    "number": 39,
+    "text": "Wybierz najmniejszy aminokwas:",
+    "answers": [
+      { "text": "glicyna", "correctness": "correct" },
+      { "text": "walina", "correctness": "incorrect" },
+      { "text": "prolina", "correctness": "incorrect" },
+      { "text": "alanina", "correctness": "incorrect" }
+    ]
+  },
+  {
+    "number": 40,
+    "text": "Do jakiego układu krystalograficznego należy grupa przestrzenna P212121?",
+    "answers": [
+      { "text": "trygonalnego", "correctness": "incorrect" },
+      { "text": "rombowego", "correctness": "incorrect" },
+      { "text": "jednoskośnego", "correctness": "incorrect" },
+      { "text": "trójskośnego", "correctness": "correct" }
+    ]
+  },
+  {
+    "number": 41,
+    "text": "Który z poniższych aminokwasów zawiera siarkę?",
+    "answers": [
+      { "text": "seryna", "correctness": "incorrect" },
+      { "text": "arginina", "correctness": "incorrect" },
+      { "text": "tryptofan", "correctness": "incorrect" },
+      { "text": "cysteina", "correctness": "correct" }
+    ]
+  },
+  {
+    "number": 42,
+    "text": "Jakie atomy definiują kąt omega w łańcuchu polipeptydowym?",
+    "answers": [
+      { "text": "N–Cα–CO–N", "correctness": "correct" },
+      { "text": "CO–N–Cα–Cb", "correctness": "incorrect" },
+      { "text": "CO–N–Cα–CO", "correctness": "incorrect" },
+      { "text": "Ca–CO–N–Ca", "correctness": "incorrect" }
+    ]
+  },
+  {
+    "number": 43,
+    "text": "Wskaż macierz, która w układzie rombowym odpowiada operacji środka symetrii (inwersja):",
+    "answers": [
+      { "text": "(1 0 0; 0 1 0; 0 0 1)", "correctness": "incorrect" },
+      { "text": "(-1 0 0; 0 -1 0; 0 0 1)", "correctness": "incorrect" },
+      { "text": "(-1 0 0; 0 1 0; 0 0 -1)", "correctness": "incorrect" },
+      { "text": "(-1 0 0; 0 -1 0; 0 0 -1)", "correctness": "correct" }
+    ]
+  },
+  {
+    "number": 44,
+    "text": "Do wyznaczenia struktury drugorzędowej białka wystarcza znajomość:",
+    "answers": [
+      { "text": "długości wiązań", "correctness": "incorrect" },
+      { "text": "długości wiązań i kątów walencyjnych", "correctness": "incorrect" },
+      { "text": "długości wiązań, kątów walencyjnych i kątów torsyjnych", "correctness": "correct" },
+      { "text": "znaków kątów torsyjnych", "correctness": "incorrect" }
+    ]
+  },
+  {
+    "number": 45,
+    "text": "Powtarzające się motywy kątów torsyjnych łańcucha głównego oraz powtarzające się motywy wiązań wodorowych charakteryzują:",
+    "answers": [
+      { "text": "struktury drugorzędowe", "correctness": "correct" },
+      { "text": "nie ma takiej sytuacji", "correctness": "incorrect" },
+      { "text": "tylko helisy α", "correctness": "incorrect" },
+      { "text": "tylko arkusze β", "correctness": "incorrect" }
+    ]
  
