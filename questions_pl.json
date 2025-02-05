@@ -1494,8 +1494,8 @@
     "text": "Jaki jest zakres długości fal (w Å) światła widzialnego?",
     "answers": [
       { "text": "40–70", "correctness": "incorrect" },
-      { "text": "400–700", "correctness": "correct" },
-      { "text": "4000–7000", "correctness": "incorrect" },
+      { "text": "400–700", "correctness": "incorrect" },
+      { "text": "4000–7000", "correctness": "correct" },
       { "text": "40000–70000", "correctness": "incorrect" }
     ]
   },
